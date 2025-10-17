@@ -1,0 +1,51 @@
+import React from 'react'
+import './Header.css'
+import Button from '@elements/Button/Button'
+
+const Header = () => {
+  return (
+    <>
+        <header>        
+          <div id="navigation-bar">
+              <div className="container">
+                <div className="top-bar">
+                    <div className="nav-contact">
+                        <div className="nav-contact-phone">
+                            <img src="public/icons/phone.svg" /><a href="#">+46 8 123 122 44</a>
+                        </div>
+                        <div className="nav-contact-mail">
+                            <img src="public/icons/email.svg" /><a href="#">contact@domain.com</a>
+                        </div>
+                    </div>
+                    <div className="nav-socialmedia">
+                        <a href="#"><img src="/public/icons/facebook.svg" /></a>
+                        <a href="#"><img src="/public/icons/x.svg" /></a>
+                        <a href="#"><img src="/public/icons/instagram.svg" /></a>
+                        <a href="#"><img src="/public/icons/youtube.svg" /></a>
+                    </div>
+                </div>
+              </div>
+          </div>
+          <nav id="nav-bar">
+            <div className="container">
+              <div className="menu">
+                  <a href="#">
+                    <div className="logotyp"><img src="/public/logotyp.svg" /></div>
+                  </a>
+                  <ul className="menu-list">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About Us</a></li> 
+                      <li><a href="#">Services</a></li> 
+                      <li><a href="#">Contact Us</a></li> 
+                      <li><a href="#">Booking</a></li>                   
+                    </ul>
+                  <Button />              
+              </div>       
+            </div>
+          </nav>
+        </header>
+    </>
+  )
+}
+
+export default Header

@@ -1,0 +1,78 @@
+header{
+    margin: 0;
+}
+
+#navigation-bar{
+    background-color: var(--secondary-color);
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 47px;
+    
+    .nav-contact{
+        display: flex;
+        gap: 1.5rem;
+        
+        .nav-contact-phone, .nav-contact-mail{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
+            color: var(--text-color-dark); 
+        }
+    }
+
+    .nav-socialmedia{
+    display: flex;
+    gap: 1rem;
+    }
+}
+
+.nav-bar{
+    background-color: var(--background-color);
+} 
+
+.logotyp{
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list{
+    display: flex;
+    gap: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: flex;
+  align-content: center;
+  padding: 14px 16px;
+  font-family: var(--font-family-2);
+  font-size: var(--bodytext-3);
+  font-weight: var(--fontweight-semibold);
+  color: var(--secondary-color);
+  text-align: center;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: var(--accent-color-2);
+}
