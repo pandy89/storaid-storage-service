@@ -1,0 +1,20 @@
+.tiles-card{
+    margin: 0;
+    border: 3px solid var(--tertiary-color-1);
+    border-radius: 10px;
+    min-width: 321px;
+    max-width: 390px;
+
+    &:hover{
+        border: 3px solid var(--accent-color-2);
+    }
+}
+
+.tiles-title{
+    padding: 25px 25px 0 25px;
+
+}
+
+.tiles-text{
+    padding: 16px 25px 16px 25px;
+}
