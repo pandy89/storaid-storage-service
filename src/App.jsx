@@ -19,6 +19,7 @@ const App = () => {
         <div className="wrapper">
             <Header />
             <main>
+              
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/contacts" element={<ContactPage />} />

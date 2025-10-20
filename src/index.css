@@ -47,6 +47,7 @@
     
     --button-background-color: hsla(48, 91%, 50%, 1);
     --button-hover-background-color: hsla(159, 51%, 14%, 1);
+    --button-hover-dark-background-color: hsla(0, 0%, 100%, 1);
 }
 
 /* [data-theme="dark"]{
