@@ -4,12 +4,16 @@ import HeroMainPage from '../components/sections/Hero/HeroMainPage';
 import HeroSubPage from '../components/sections/Hero/HeroSubPage';
 import AboutUs from '../components/sections/AboutUs/AboutUs';
 import Brand from '../components/sections/Brand/Brand';
+import OurServices from '../components/sections/OurServices/OurServices';
 
 const HomePage = () => {
 
-    return (
-        <div>HomePage
-            <Tiles title="Title" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." variant="secondary" />
+    return (        
+        <div>
+        <HeroMainPage />
+        <AboutUs />
+        <Brand />
+        <OurServices />
         </div>
     )
 }
