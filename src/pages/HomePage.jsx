@@ -7,13 +7,9 @@ import Brand from '../components/sections/Brand/Brand';
 
 const HomePage = () => {
 
-    return (        
-        <div>
-        <HeroMainPage />
-        <AboutUs />
-        <Brand />
-        
-            
+    return (
+        <div>HomePage
+            <Tiles title="Title" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." variant="secondary" />
         </div>
     )
 }
