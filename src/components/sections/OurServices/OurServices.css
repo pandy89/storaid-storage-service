@@ -31,7 +31,7 @@
 .placeholder-box{
     grid-area: placeholder;
     width: 520px;
-    height: 327px;
+    height: 340px;
     background-color: #c4c4c4;
     border: 3px solid var(--tertiary-color-1);
 }
