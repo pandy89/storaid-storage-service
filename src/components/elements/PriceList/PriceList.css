@@ -1,0 +1,114 @@
+.pricelist-card{
+    height: auto;
+    width: 321px;
+    background-color: var(--tertiary-color-3);
+    border: 3px solid var(--tertiary-color-1);
+    border-radius: 10px;    
+    padding-top: 37px;
+    padding-right:1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+
+    &:hover{
+        background-color: var(--secondary-color);
+    }
+}
+
+.pricelist-header{
+    text-align: center;
+    color: var(--text-color);
+
+    &:hover{
+        color: var(--text-color-dark);
+    }
+}
+
+.pricelist-price{
+    text-align: center;
+    padding-bottom: 1rem;
+
+    .price{
+        font-size: 3rem;
+        font-weight: var(--fontweight-bold);
+        color: var(--accent-color-1);
+    }
+
+    .month{
+        padding-left: 1rem;
+        font-size: 1.3rem;
+        font-weight: var(--fontweight-semibold);
+        color: var(--text-color);
+
+        &:hover{
+            color: var(--text-color-dark);
+        }
+    }
+}
+
+ .dollarsign{
+    margin: 0;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.pricelist-text{
+    padding-bottom: 2rem;
+    color: var(--secondary-color);
+    text-align: center;
+
+    &:hover{
+            color: var(--text-color-dark);
+        }
+}
+
+.divider{
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    width: 95%;
+    align-content: center;    
+    padding-bottom: 2rem;
+
+    &:hover{
+        border-top: 1px solid #fff;
+    }
+}
+
+.checklist{
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;    
+}
+
+.checklist-list{
+    padding-bottom: 1rem;
+}
+
+.checklist-item{
+    margin: 0;
+    color: var(--text-color);
+    padding-bottom: 0.5rem;
+
+    &:hover{
+        color: var(--text-color-dark);
+    }
+}
+
+.list-icon{
+    color: var(--secondary-color);
+    padding-right: 0.5rem; 
+
+    &:hover{
+        color: var(--accent-color-1);
+    }
+}
+
+.pricelist-button{
+    width: 150px;
+    margin: 0 auto;
+
+    &:hover{
+        background-color: var(--button-hover-dark-background-color);
+    }
+}
+

@@ -1,11 +1,13 @@
 import React from 'react';
-import Tiles from '@elements/Tiles/Tiles';
+import PriceList from '@elements/PriceList/PriceList';
+import HeroMainPage from '../components/sections/Heros/HeroMainPage';
 
 const HomePage = () => {
 
     return (        
-        <div>HomePage
-            <Tiles />
+        <div>
+        <HeroMainPage />    HomePage Här är Homepage
+            
         </div>
     )
 }

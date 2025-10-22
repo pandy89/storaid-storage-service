@@ -33,13 +33,13 @@ const Header = () => {
                     <div className="logotyp"><img src="/public/logotyp.svg" /></div>
                   </a>
                   <ul className="menu-list">
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About Us</a></li> 
-                      <li><a href="#">Services</a></li> 
-                      <li><a href="#">Contact Us</a></li> 
-                      <li><a href="#">Booking</a></li>                   
-                    </ul>
-                  <Button />              
+                      <li className="menu-item"><a href="#">Home</a></li>
+                      <li className="menu-item"><a href="#">About Us</a></li> 
+                      <li className="menu-item"><a href="#">Services</a></li> 
+                      <li className="menu-item"><a href="#">Contact Us</a></li> 
+                      <li className="menu-item"><a href="#">Booking</a></li>                   
+                  </ul>
+                  <Button name="Book now" />              
               </div>       
             </div>
           </nav>
