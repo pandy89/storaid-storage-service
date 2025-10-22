@@ -5,7 +5,7 @@ const HomePage = () => {
 
     return (        
         <div>HomePage
-            <Tiles />
+            <Tiles title="Title" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." variant="secondary" />
         </div>
     )
 }
