@@ -11,7 +11,7 @@ const Tiles = ({title, text, variant = "default" }) => {
           </div>
           <div className="tiles-text">
               <span>{text}</span>
-          </div>                
+          </div>
         </div> 
     </div>
   )

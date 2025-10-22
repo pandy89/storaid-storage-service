@@ -2,13 +2,13 @@ import React from 'react'
 import HeroSubPage from '../components/sections/Hero/HeroSubPage'
 
 
-const ContactPage = () => {
+const ServicePage = () => {
   return (
     <div>
-      <HeroSubPage title="Om oss" 
+      <HeroSubPage title="Services" 
         text="Vi är ett kreativt team som bygger lösningar."  />
     </div>
   )
 }
 
-export default ContactPage
+export default ServicePage

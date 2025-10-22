@@ -1,9 +1,13 @@
 import React from 'react';
-import Tiles from '@elements/Tiles/Tiles';
+import PriceList from '@elements/PriceList/PriceList';
+import HeroMainPage from '../components/sections/Hero/HeroMainPage';
+import HeroSubPage from '../components/sections/Hero/HeroSubPage';
+import AboutUs from '../components/sections/AboutUs/AboutUs';
+import Brand from '../components/sections/Brand/Brand';
 
 const HomePage = () => {
 
-    return (        
+    return (
         <div>HomePage
             <Tiles title="Title" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." variant="secondary" />
         </div>
