@@ -14,8 +14,6 @@ const HomePage = () => {
         <AboutUs />
         <Brand />
         <OurServices />
-        
-            
         </div>
     )
 }
