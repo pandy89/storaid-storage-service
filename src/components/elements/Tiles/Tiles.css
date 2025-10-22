@@ -1,13 +1,4 @@
-.tiles-title{
-    padding: 25px 25px 0 25px;
-
-}
-
-.tiles-text{
-    padding: 16px 25px 16px 25px;
-}
-
-/* Variants size */
+/* Card variants sizes */
 
 .tile-primary{
     margin: 0;
@@ -32,3 +23,20 @@
     border: 3px solid var(--accent-color-2);
     }
 }
+
+/* Title and text variants */
+.tile-title{
+    padding: 25px 25px 0 25px;
+}
+
+.tile-title-secondary{
+    padding: 15px 15px 0 20px;
+}
+
+.tile-text{
+    padding: 16px 25px 16px 25px;
+}
+.tile-text-secondary{
+    padding: 16px 25px 16px 20px;
+}
+

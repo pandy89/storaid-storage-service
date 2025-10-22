@@ -10,7 +10,7 @@ const HomePage = () => {
 
     return (
         <div>
-            <Tiles title="Title" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." variant="primary" />
+            <Tiles title="Title" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." variant="primary" titleVariant="primary" textVariant="primary"/>
         </div>
     )
 }
