@@ -1,0 +1,21 @@
+.subhero{
+    background-color: var(--accent-color-2);
+    height: 467px;    
+}
+
+.subhero-area{
+    margin: 0 auto;
+    padding-top: 155px;
+    max-width: 1320px;
+}
+
+.subhero-headline{
+    grid-area: headline;
+    color: var(--primary-color);
+}
+
+.subhero-ingress{
+    grid-area: ingress;
+    width: 750px;
+    color: var(--primary-color);
+}
