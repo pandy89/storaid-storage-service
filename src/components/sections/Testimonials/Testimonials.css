@@ -1,0 +1,48 @@
+.testimonials-area{
+    height: 669px;
+    align-content: center;
+    position: relative;
+    background: url('bg-image.svg') center/cover no-repeat;
+}
+
+.testimonials-area::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--accent-color-2);
+  z-index: 0;
+}
+
+.testimonials-content{
+    position: relative;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    width: 800px;
+    padding-bottom: 2rem;
+    z-index: 1;
+}
+
+.testimonials-headling{
+    color: var(--accent-color-1);
+    text-align: center;
+}
+
+.testimonials-card{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.testimonials-subheadline{
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.testimonials-text{
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/*Chat GPT helpt me with the background on the section. */
