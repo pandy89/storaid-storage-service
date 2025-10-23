@@ -1,8 +1,4 @@
-.card-area{
-    background-color: var(--accent-color-2);
-    height: 500px;
-    align-content: center;
-}
+
 
 .card-content{    
     display: flex;

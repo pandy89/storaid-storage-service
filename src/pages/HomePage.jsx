@@ -7,6 +7,7 @@ import Brand from '../components/sections/Brand/Brand';
 
 import OurServices from '../components/sections/OurServices/OurServices';
 import ReviewCard from '../components/elements/ReviewCard/ReviewCard';
+import Testimonials from '../components/sections/Testimonials/Testimonials';
 
 const HomePage = () => {
 
@@ -16,7 +17,7 @@ const HomePage = () => {
         <AboutUs />
         <Brand />
         <OurServices />
-        <ReviewCard />
+        <Testimonials />
         </div>
     )
 }
