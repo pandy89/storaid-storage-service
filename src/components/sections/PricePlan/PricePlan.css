@@ -1,0 +1,13 @@
+.price-plan-area{
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.headline{
+    width: 600px;
+}
+
+.pricelist{
+    display: flex;
+    justify-content: space-between;
+}

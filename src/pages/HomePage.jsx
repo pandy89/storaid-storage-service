@@ -9,6 +9,7 @@ import OurServices from '../components/sections/OurServices/OurServices';
 import ReviewCard from '../components/elements/ReviewCard/ReviewCard';
 import Testimonials from '../components/sections/Testimonials/Testimonials';
 import WhyUS from '../components/sections/WhyChooseUS/WhyUS';
+import PricePlan from '../components/sections/PricePlan/PricePlan';
 
 const HomePage = () => {
 
@@ -20,6 +21,7 @@ const HomePage = () => {
         <OurServices />
         <Testimonials />
         <WhyUS />
+        <PricePlan />
         </div>
     )
 }

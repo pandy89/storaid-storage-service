@@ -17,8 +17,8 @@ const AboutUs = () => {
                     <h3 className="headline">Providing a Safe Space for Your Treasured Items</h3>
                     <span className="about-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi, non sodales augue. Phasellus eget elit gravida.</span>
                     <div className="tiles">
-                        <Tiles title="Vision" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium."/>
-                        <Tiles title="Mission" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." />
+                        <Tiles title="Vision" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." variant="primary" titleVariant="primary" textVariant="primary"/>
+                        <Tiles title="Mission" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." variant="primary" titleVariant="primary" textVariant="primary" />
                     </div>
                     <div className="discover"><Button name="Discover more" /></div>
                     <div className="more-info">
