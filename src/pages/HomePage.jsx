@@ -6,6 +6,7 @@ import AboutUs from '../components/sections/AboutUs/AboutUs';
 import Brand from '../components/sections/Brand/Brand';
 
 import OurServices from '../components/sections/OurServices/OurServices';
+import ReviewCard from '../components/elements/ReviewCard/ReviewCard';
 
 const HomePage = () => {
 
@@ -15,6 +16,7 @@ const HomePage = () => {
         <AboutUs />
         <Brand />
         <OurServices />
+        <ReviewCard />
         </div>
     )
 }
