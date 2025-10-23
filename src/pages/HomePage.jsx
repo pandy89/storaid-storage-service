@@ -8,6 +8,7 @@ import Brand from '../components/sections/Brand/Brand';
 import OurServices from '../components/sections/OurServices/OurServices';
 import ReviewCard from '../components/elements/ReviewCard/ReviewCard';
 import Testimonials from '../components/sections/Testimonials/Testimonials';
+import WhyUS from '../components/sections/WhyChooseUS/WhyUS';
 
 const HomePage = () => {
 
@@ -18,6 +19,7 @@ const HomePage = () => {
         <Brand />
         <OurServices />
         <Testimonials />
+        <WhyUS />
         </div>
     )
 }
