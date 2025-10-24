@@ -10,6 +10,7 @@ import ReviewCard from '../components/elements/ReviewCard/ReviewCard';
 import Testimonials from '../components/sections/Testimonials/Testimonials';
 import WhyUS from '../components/sections/WhyChooseUS/WhyUS';
 import PricePlan from '../components/sections/PricePlan/PricePlan';
+import Booking from '../components/sections/Booking/Booking';
 
 const HomePage = () => {
 
@@ -22,6 +23,7 @@ const HomePage = () => {
         <Testimonials />
         <WhyUS />
         <PricePlan />
+        <Booking />
         </div>
     )
 }
