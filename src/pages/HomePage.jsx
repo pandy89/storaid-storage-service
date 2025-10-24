@@ -11,6 +11,7 @@ import PricePlan from '../components/sections/PricePlan/PricePlan';
 import Booking from '../components/sections/Booking/Booking';
 
 import BlogPost from '../components/sections/BlogPost/BlogPost';
+import Subscribe from '../components/sections/Subscribe/Subscribe';
 
 
 
@@ -27,6 +28,7 @@ const HomePage = () => {
         <PricePlan />
         <Booking />
         <BlogPost />
+        <Subscribe />
         
         </div>
     )
