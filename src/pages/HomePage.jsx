@@ -11,6 +11,9 @@ import Testimonials from '../components/sections/Testimonials/Testimonials';
 import WhyUS from '../components/sections/WhyChooseUS/WhyUS';
 import PricePlan from '../components/sections/PricePlan/PricePlan';
 import Booking from '../components/sections/Booking/Booking';
+import PostCards from '../components/elements/PostCards/Postcards';
+
+
 
 const HomePage = () => {
 
@@ -24,6 +27,7 @@ const HomePage = () => {
         <WhyUS />
         <PricePlan />
         <Booking />
+        <PostCards />
         </div>
     )
 }
