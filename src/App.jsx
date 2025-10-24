@@ -8,9 +8,11 @@ import ContactPage from '@pages/ContactPage'
 import ServicePage from '@pages/ServicePage'
 import AboutUsPage from '@pages/AboutUsPage'
 import NotFound from '@pages/NotFound'
+import BookingPage from '@pages/BookingPage'
 
 import Header from '@sections/Header/Header'
 import Footer from '@sections/Footer/Footer'
+
 
 
 const App = () => {
@@ -21,13 +23,13 @@ const App = () => {
         <BrowserRouter>
         <div className="wrapper">
             <Header />
-            <main>
-              
+            <main>              
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/contacts" element={<ContactPage />} />
-                <Route path="/services" element={<ServicePage />} />
                 <Route path="/aboutus" element={<AboutUsPage />} />
+                <Route path="/services" element={<ServicePage />} />
+                <Route path="/contacts" element={<ContactPage />} />
+                <Route path="/booking" element={<BookingPage />} />     
                 <Route path="*" element={<NotFound />} />
             </Routes>            
             </main>
