@@ -8,7 +8,7 @@ const PricePlan = () => {
     <>
     <div className="container">
         <section className="price-plan-area">
-            <h4>Pricing Plan</h4>
+            <h4 className="subheadline">Pricing Plan</h4>
             <div className="headline">
                 <h3>Find the Perfect Plan for Your Storage Needs</h3>
             </div>

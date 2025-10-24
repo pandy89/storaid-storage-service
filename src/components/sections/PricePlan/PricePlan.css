@@ -7,6 +7,10 @@
     width: 600px;
 }
 
+.subheadline{
+    color: var(--accent-color-2);
+}
+
 .pricelist{
     display: flex;
     justify-content: space-between;
