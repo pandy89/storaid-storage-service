@@ -1,88 +1,47 @@
-.hero{
+.mainhero-area{
     background-color: var(--accent-color-2);
     height: 712px;
-    
 }
 
-.hero-area{
+.mainhero-content{
+    padding-top: 180px;
+
     display: grid;
-    grid-template-columns: auto;
-    margin: 0 auto;
-    padding-top: 178px;
-    max-width: 1320px;
-    
-    
-
-    .hero-content{
-        display: grid;
-        grid-template-columns: 1fr auto;
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas:    "welcome hero-image"
-                                "headline hero-image"
-                                "ingress hero-image"
-                                "button hero-image"
-        ;
-                               
-    }
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    grid-template-areas:    "subheadline image"
+                            "headline image"
+                            "ingress image"
+                            "button image";
+    align-content: start;
+    column-gap: 8rem;
 }
 
-.welcome{
-    grid-area: welcome;
+.mainhero-subheadline{
+    grid-area: subheadline;
     color: var(--accent-color-1);
-
+    padding-bottom: 1rem;
 }
 
-.hero-headline{
+.mainhero-headline{
     grid-area: headline;
-
     color: var(--primary-color);
+    line-height: 1;
+    padding-bottom: 1rem;       
 }
 
-.hero-ingress{
+.mainhero-ingress{
     grid-area: ingress;
-    width: 750px;
     color: var(--primary-color);
+    padding-bottom: 2rem;    
+    width: 732px;
 }
 
-.hero-button{
+.mainhero-button{
     grid-area: button;
-    width: 200px;
-
+    width: 180px;
 }
 
-.hero-image{
-    display: flex;
-    grid-area: hero-image;
-    text-align: end;
-
-
-    img{
-        width: 100%;
-    }
+.mainhero-image{
+    grid-area: image;
 }
-
-
-
-/* 
-.hero-image{
-                display: none;
-
-                @media (width >= 768px){
-                    grid-area: hero-image;
-                    display: flex;
-                }
-
-                @media (width >=1024px){
-                    grid-area: hero-image;
-                    display: flex;
-                }
-
-                @media (width >= 1440px){
-                    grid-area: hero-image;
-                    display: flex;
-                }
-
-                img{
-                    width: 100%;
-                }
-            } */
