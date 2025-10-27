@@ -1,0 +1,10 @@
+.brand{
+    background-color:var(--tertiary-color-2);
+}
+
+.brand-area{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

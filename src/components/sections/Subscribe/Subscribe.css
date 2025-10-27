@@ -1,0 +1,11 @@
+.subscribe{
+    background-color: var(--tertiary-color-2);
+}
+
+.subscribe-area{
+    padding-top: 95px;
+    padding-bottom: 95px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

@@ -1,20 +1,43 @@
-.tiles-card{
+/* Card variants sizes */
+
+.tile-primary{
     margin: 0;
     border: 3px solid var(--tertiary-color-1);
     border-radius: 10px;
     min-width: 321px;
-    max-width: 390px;
+    max-width: 321px;
 
     &:hover{
         border: 3px solid var(--accent-color-2);
     }
 }
 
-.tiles-title{
-    padding: 25px 25px 0 25px;
+.tile-secondary{
+    margin: 0;
+    border: 3px solid var(--tertiary-color-1);
+    border-radius: 10px;
+    min-width: 390px;
+    max-width: 390px;
 
+    &:hover{
+    border: 3px solid var(--accent-color-2);
+    }
 }
 
-.tiles-text{
+
+/* Title and text variants */
+.tile-title{
+    padding: 25px 25px 0 25px;
+}
+
+.tile-title-secondary{
+    padding: 15px 15px 0 20px;
+}
+
+.tile-text{
     padding: 16px 25px 16px 25px;
 }
+.tile-text-secondary{
+    padding: 16px 25px 16px 20px;
+}
+
