@@ -11,6 +11,7 @@ import Booking from '../components/sections/Booking/Booking';
 
 import BlogPost from '../components/sections/BlogPost/BlogPost';
 import Subscribe from '../components/sections/Subscribe/Subscribe';
+import InputField from '../components/forms/InputField';
 
 
 
@@ -29,6 +30,7 @@ const HomePage = () => {
         <Booking />
         <BlogPost />
         <Subscribe />
+        <InputField />
         </>
     )
 }
