@@ -1,16 +1,12 @@
 import React from 'react';
-import PriceList from '@elements/PriceList/PriceList';
 import HeroMainPage from '../components/sections/Hero/HeroMainPage';
-import HeroSubPage from '../components/sections/Hero/HeroSubPage';
 
 const HomePage = () => {
 
     return (        
-        <div>
-        {/* <HeroMainPage /> */}
-        <HeroSubPage />
-            
-        </div>
+        <>
+        <HeroMainPage title="Space Simplified, Storage Perfected" subtitle="Welcome to StorAid" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem fringilla sodales. Cras lobortis, libero at iaculis luctus, nisi ex pellentesque nisi, at euismod sem ipsum ac dolor." />
+        </>
     )
 }
 

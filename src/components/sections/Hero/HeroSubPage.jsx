@@ -1,10 +1,9 @@
 import React from 'react'
 import './HeroSubPage.css'
 
-
 const HeroSubPage = ({title, text}) => {
   return (
-    <div>
+    <>
     <section id="subhero" className="subhero">
         <div className="subhero-area">
             <div className="subhero-content">                        
@@ -13,7 +12,7 @@ const HeroSubPage = ({title, text}) => {
             </div>
         </div>
     </section>
-    </div>
+    </>
   )
 }
 
