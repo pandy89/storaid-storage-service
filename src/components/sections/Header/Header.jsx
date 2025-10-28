@@ -1,11 +1,12 @@
 import React from 'react'
 import './Header.css'
 import Button from '@elements/Button/Button'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
     <>
-        <header>        
+         <header>        
           <div id="navigation-bar">
               <div className="container">
                 <div className="top-bar">
@@ -29,12 +30,12 @@ const Header = () => {
           <nav id="nav-bar">
             <div className="container">
               <div className="menu">
-                  <a href="#">
+                  <Link to="/">
                     <div className="logotyp"><img src="/public/logotyp.svg" /></div>
-                  </a>
+                  </Link>
                   <ul className="menu-list">
                       <li className="menu-item"><a href="#">Home</a></li>
-                      <li className="menu-item"><a href="#">About Us</a></li> 
+                      <NavLink className="menu-item" to="/about">About Us</NavLink> 
                       <li className="menu-item"><a href="#">Services</a></li> 
                       <li className="menu-item"><a href="#">Contact Us</a></li> 
                       <li className="menu-item"><a href="#">Booking</a></li>                   
