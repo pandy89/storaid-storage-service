@@ -9,9 +9,11 @@
     font-weight: var(--fontweight-semibold);
     text-align: center;
     height: 52px;
+    cursor: pointer;
 
     &:hover{
         background-color: var(--button-hover-background-color);
         color: var(--text-color-dark);
+        cursor: pointer;
     }
 }
