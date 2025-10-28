@@ -11,16 +11,13 @@ import NotFound from '@pages/NotFound'
 
 import Header from '@sections/Header/Header'
 import Footer from '@sections/Footer/Footer'
-import TopBar from './components/sections/TopBar/TopBar'
 
 const App = () => {
 
   return (
-    <>
-        <BrowserRouter>
+    <BrowserRouter>
         <div className="wrapper">
-          <TopBar />
-            
+          <Header />
             <main>              
             <Routes>
                 <Route path="/" element={<HomePage />} />
@@ -28,13 +25,12 @@ const App = () => {
                 <Route path="/services" element={<ServicePage />} />
                 <Route path="/contacts" element={<ContactPage />} />
                 <Route path="/booking" element={<BookingPage />} />     
-                <Route path="*" element={<NotFound />} />
+                <Route path="/notfound" element={<NotFound />} />
             </Routes>            
             </main>
             <Footer />
         </div>
-        </BrowserRouter>
-    </>
+    </BrowserRouter>
   )
 }
 
