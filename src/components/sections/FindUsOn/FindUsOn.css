@@ -1,0 +1,55 @@
+.find-us-on-area{
+    background-color: var(--accent-color-2);
+}
+
+.find-us-on-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-us-image{
+    align-content: end;
+    margin: 0;
+}
+
+.find-us-on-box{
+    background-color: var(--tertiary-color-4);
+    height: 600px;
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.find-us-info-box{
+    display: flex;
+    flex-direction: column;
+}
+.find-us-title{
+    margin: 0;
+}
+
+.find-us-text{
+    width: 550px;
+    padding-bottom: 1rem;
+}
+
+.iconboxes{
+    padding-bottom: 1rem;
+}
+
+.line{
+    height: 2px;
+    width: 175px;
+    margin-top: 20px;
+    background-color: var(--secondary-color);  
+}
+
+.find-us-social-media-icons{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.follow-us-box{
+    display: flex;
+    gap: 2rem;
+}

@@ -1,5 +1,6 @@
 .navigation-bar{
     background-color: var(--secondary-color);
+    
 }
 
 .top-bar{
@@ -24,5 +25,15 @@
     .nav-socialmedia{
     display: flex;
     gap: 1rem;
+    }
+}
+
+.topbar-link{
+    color: var(--text-color-dark);
+
+    text-decoration: none;
+    
+    &:hover{
+        text-decoration: underline;
     }
 }
