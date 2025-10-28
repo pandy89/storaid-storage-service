@@ -30,7 +30,6 @@ const HomePage = () => {
         <Booking />
         <BlogPost />
         <Subscribe />
-        <InputField />
         </>
     )
 }
