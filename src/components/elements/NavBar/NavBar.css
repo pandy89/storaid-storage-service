@@ -1,0 +1,33 @@
+.nav-bar{
+    background-color: var(--background-color);
+} 
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotyp{
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-item{
+    padding: 14px 16px;
+    font-family: var(--font-family-2);
+    font-size: var(--bodytext-3);
+    font-weight: var(--fontweight-semibold);
+    color: var(--secondary-color);
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+    color: var(--accent-color-2);
+    }
+}

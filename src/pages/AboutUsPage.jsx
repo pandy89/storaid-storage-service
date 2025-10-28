@@ -1,7 +1,6 @@
 import React from 'react'
 import HeroSubPage from '../components/sections/Hero/HeroSubPage';
 import AboutUs from '../components/sections/AboutUs/AboutUs'
-import TopBar from '../components/sections/TopBar/TopBar';
 
 const AboutUsPage = () => {
   return (
