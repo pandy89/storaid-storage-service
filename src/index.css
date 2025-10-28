@@ -16,6 +16,7 @@
     --tertiary-color-1: hsla(0, 0%, 93%, 1);
     --tertiary-color-2: hsla(51, 58%, 95%, 1);
     --tertiary-color-3: hsla(100, 100%, 96%, 1);
+    --tertiary-color-4: hsla(100, 100%, 96%, 0.5);
 
     --error-color: rgb(214, 14, 0);
 
@@ -151,14 +152,7 @@ h6{
     margin: 0;
 }
 
-a{
-    color: var(--link-color);
-    text-decoration: none;
-    
-    &:hover{
-        text-decoration: underline;
-    }
-}
+
 
 .wrapper {
     display: grid;

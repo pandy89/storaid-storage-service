@@ -9,10 +9,10 @@ const TopBar = () => {
         <div className="top-bar">
             <div className="nav-contact">
                 <div className="nav-contact-phone">
-                    <img src="public/icons/phone.svg" /><Link to="tel:+46812312244">+46 8 123 122 44</Link>
+                    <img src="public/icons/phone.svg" /><Link to="tel:+46812312244" className="topbar-link">+46 8 123 122 44</Link>
                 </div>
                 <div className="nav-contact-mail">
-                    <img src="public/icons/email.svg" /><Link to="mailto:contact@domain.com">contact@domain.com</Link>
+                    <img src="public/icons/email.svg" /><Link to="mailto:contact@domain.com" className="topbar-link">contact@domain.com</Link>
                 </div>
             </div>
             <div className="nav-socialmedia">
