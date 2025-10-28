@@ -11,6 +11,7 @@ import NotFound from '@pages/NotFound'
 
 import Header from '@sections/Header/Header'
 import Footer from '@sections/Footer/Footer'
+import TopBar from './components/sections/TopBar/TopBar'
 
 const App = () => {
 
@@ -18,7 +19,8 @@ const App = () => {
     <>
         <BrowserRouter>
         <div className="wrapper">
-            <Header />
+          <TopBar />
+            
             <main>              
             <Routes>
                 <Route path="/" element={<HomePage />} />
