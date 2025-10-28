@@ -3,9 +3,44 @@
 }
 
 .subscribe-area{
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding-top: 34px;
+    padding-bottom: 34px;
     display: flex;
     align-items: center;
     gap: 1rem;
+    justify-content: space-between;
+}
+
+.subscribe-form{
+    display: flex;
+    gap: 1rem;
+}
+.input-field-subscribe{
+    font-family: var(--font-family-1);
+    color: var(--secondary-color);
+    padding: 1.1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    width: 540px;
+
+    &:focus{
+        
+        border: 1px solid var(--primary-color);
+    }
+    &::placeholder{
+        font-size: 1rem;
+    }
+}
+
+.required::after{
+    content: " *";
+    color: var(--error-color);
+}
+
+
+
+.error{
+    font-size: 0.8em;
+    color: var(--error-color);
+    margin-top: 4px;
 }

@@ -1,7 +1,9 @@
 import React from 'react'
 import './Subscribe.css'
+import Button from '@elements/Button/Button'
 
 const Subscribe = () => {
+
   return (
     <>
     <section className="subscribe">
@@ -11,7 +13,13 @@ const Subscribe = () => {
                     <h3>Subscribe Our Newletter</h3>
                     <span>Subscribe to our newsletter to receive early discount offers, updates and info</span>
                 </div>
-                <div className="subscribe-form">Form</div>
+                <div className="subscribe-form">
+                  <div>
+                    <input className="input-field-subscribe" name="subscribe" type="email" placeholder="Enter your email address *" id="inputField" required /><span className="asterisk_required_field"></span>
+                    <div className="comment-error error"></div>
+                  </div>
+                  <Button type="submit" name="Submit" />
+                </div>
             </div>
         </div>
     </section>
