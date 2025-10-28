@@ -17,7 +17,7 @@ const NavBar = () => {
                 <NavLink className="menu-item" to="/">Home</NavLink>
                 <NavLink className="menu-item" to="/about">About Us</NavLink> 
                 <NavLink className="menu-item" to="/services">Services</NavLink> 
-                <NavLink className="menu-item" to="/contactus">Contact Us</NavLink> 
+                <NavLink className="menu-item" to="/contact">Contact Us</NavLink> 
                 <NavLink className="menu-item" to="/booking">Booking</NavLink>
             </nav>
                 <Button name="Book now" />
