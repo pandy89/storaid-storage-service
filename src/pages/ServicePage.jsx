@@ -1,9 +1,9 @@
 import React from 'react'
-import HeroSubPage from '../components/sections/Hero/HeroSubPage'
-import OurServices from '../components/sections/OurServices/OurServices'
-import Testimonials from '../components/sections/Testimonials/Testimonials'
-import Booking from '../components/sections/Booking/Booking'
-import Subscribe from '../components/sections/Subscribe/Subscribe'
+import HeroSubPage from '../components/sections/HeroSubPage'
+import OurServices from '../components/sections/OurServices'
+import Testimonials from '../components/sections/Testimonials'
+import BookStorage from '../components/sections/BookStorage'
+import Subscribe from '../components/sections/Subscribe'
 
 
 const ServicePage = () => {
@@ -13,7 +13,7 @@ const ServicePage = () => {
       <OurServices />
       <Testimonials />
       {/* FAQ */}
-      <Booking />
+      <BookStorage/>
       <Subscribe />
     </>
   )
