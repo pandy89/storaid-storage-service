@@ -1,34 +1,29 @@
 import React from 'react';
-import HeroMainPage from '../components/sections/Hero/HeroMainPage';
-import AboutUs from '../components/sections/AboutUs/AboutUs';
-import Brand from '../components/sections/Brand/Brand';
+import HeroMainPage from '../components/sections/HeroMainPage'
+import AboutUs from '../components/sections/AboutUs'
+import Brands from '../components/sections/Brands'
+import OurServices from '../components/sections/OurServices'
+import Testimonials from '../components/sections/Testimonials'
+import WhyUs from '../components/sections/WhyUs'
+import PricePlan from '../components/sections/PricePlan'
+import BookStorage from '../components/sections/BookStorage'
+import BlogPost from '../components/sections/BlogPost'
+import Subscribe from '../components/sections/Subscribe'
 
-import OurServices from '../components/sections/OurServices/OurServices';
-import Testimonials from '../components/sections/Testimonials/Testimonials';
-
-import PricePlan from '../components/sections/PricePlan/PricePlan';
-import Booking from '../components/sections/Booking/Booking';
-import WhyUS from '../components/sections/WhyChooseUS/WhyUs';
-import BlogPost from '../components/sections/BlogPost/BlogPost';
-import Subscribe from '../components/sections/Subscribe/Subscribe';
-import InputField from '../components/forms/InputField';
-import Faq from '../components/elements/FAQ/Faq';
-
-
+import Faq from '../components/elements/Faq'
 
 const HomePage = () => {
 
     return (        
         <>
         <HeroMainPage title="Space Simplified, Storage Perfected" subtitle="Welcome to StorAid" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem fringilla sodales. Cras lobortis, libero at iaculis luctus, nisi ex pellentesque nisi, at euismod sem ipsum ac dolor." />
-        
         <AboutUs />
-        <Brand />
+        <Brands />
         <OurServices />
         <Testimonials />
-        <WhyUS />
+        <WhyUs />
         <PricePlan />
-        <Booking />
+        <BookStorage />
         <BlogPost />
         <Subscribe />
         <Faq />

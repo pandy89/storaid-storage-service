@@ -1,8 +1,8 @@
 import React from 'react'
-import HeroSubPage from '../components/sections/Hero/HeroSubPage'
-import GetInTouch from '../components/sections/GetInTouch/GetInTouch'
-import FindUsOn from '../components/sections/FindUsOn/FindUsOn'
-import Subscribe from '../components/sections/Subscribe/Subscribe'
+import HeroSubPage from '../components/sections/HeroSubPage'
+import GetInTouch from '../components/sections/GetInTouch'
+import FindUsOn from '../components/sections/FindUsOn'
+import Subscribe from '../components/sections/Subscribe'
 
 
 
