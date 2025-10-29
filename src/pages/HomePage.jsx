@@ -5,13 +5,14 @@ import Brand from '../components/sections/Brand/Brand';
 
 import OurServices from '../components/sections/OurServices/OurServices';
 import Testimonials from '../components/sections/Testimonials/Testimonials';
-import WhyUS from '../components/sections/WhyChooseUS/WhyUS';
+
 import PricePlan from '../components/sections/PricePlan/PricePlan';
 import Booking from '../components/sections/Booking/Booking';
-
+import WhyUS from '../components/sections/WhyChooseUS/WhyUs';
 import BlogPost from '../components/sections/BlogPost/BlogPost';
 import Subscribe from '../components/sections/Subscribe/Subscribe';
 import InputField from '../components/forms/InputField';
+import Faq from '../components/elements/FAQ/Faq';
 
 
 
@@ -30,6 +31,7 @@ const HomePage = () => {
         <Booking />
         <BlogPost />
         <Subscribe />
+        <Faq />
         </>
     )
 }

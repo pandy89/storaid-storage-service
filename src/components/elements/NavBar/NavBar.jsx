@@ -11,7 +11,7 @@ const NavBar = () => {
         <div className="container">
             <div className="menu">
             <Link to="/">
-                <div className="logotyp"><img src="/public/logotyp.svg" /></div>
+                <div className="logotyp"><img src="/logotyp.svg" /></div>
             </Link> 
             <nav className="nav-list">
                 <NavLink className="menu-item" to="/">Home</NavLink>
