@@ -1052,31 +1052,43 @@ h6{
 .postcard-area{
     background-color: var(--secondary-color);
     width: 430px;
-    height: auto;
+    height: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+
 }
 
 .postcard-content{
-    margin: 0 auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: grid;
+    gap: 1rem;
+    height: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto 1fr auto;
+    grid-template-areas:    "image"
+                            "date"
+                            "title"
+                            "text"  
+                            "button"  
+    ;
 }
 
-.postcard-placeholder{
-    background-color: #c4c4c4;
-    margin: 0 auto;
-    height: 254px;
+.postcard-image{
+    grid-area: image;
     width: 380px;
+    height: 254px;
+    margin: 0 auto;
     border-radius: 8px;
 }
 
 .postcard-date{
+    grid-area: date;
     display: flex;
-    color: var(--primary-color);
+    padding-right: 25px;
     padding-left: 25px;
-    padding-top: 25px;
+    color: var(--primary-color);
     font-size: var(--bodytext-4-size);
     font-weight: var(--fontweight-light);
     align-content: center;
@@ -1087,31 +1099,31 @@ h6{
 }
 
 .postcard-title{
-    color: var(--primary-color);
+    grid-area: title;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    color: var(--primary-color);
     font-size: var(--bodytext-4-size);
     font-family: var(--font-family-2);
     font-weight: var(--fontweight-bold);
 }
 
 .postcard-text{
-    color: var(--primary-color);
+    grid-area: text;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    color: var(--primary-color);
     font-size: var(--bodytext-1-size);
     font-family: var(--font-family-1);
     font-weight: var(--fontweight-regular);
 }
 
 .postcard-link{
+    grid-area: button;
+    padding-left: 25px;
+    padding-right: 25px;
     display: flex;
     color: var(--accent-color-1);
-    padding-left: 25px;
     align-content: center;
     text-decoration: none;
     
@@ -1123,7 +1135,6 @@ h6{
         padding-left: 10px;
     }
 }
-
 
 /* Post Card Hover */
 .postcard-area{
@@ -1142,22 +1153,33 @@ h6{
 }
 
 .postcard-content{
-    margin: 0 auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto 1fr auto;
+    grid-template-areas:    "image"
+                            "date"
+                            "title"
+                            "text"  
+                            "button"  
+    ;
 }
 
-.postcard-placeholder{
-    background-color: #c4c4c4;
-    margin: 0 auto;
-    height: 254px;
+.postcard-image{
     width: 380px;
+    height: 254px;
+    margin: 0 auto;
     border-radius: 8px;
 }
 
 .postcard-date{
+    grid-area: date;
     display: flex;
-    color: var(--primary-color);
+    padding-right: 25px;
     padding-left: 25px;
-    padding-top: 25px;
+    color: var(--primary-color);
     font-size: var(--bodytext-4-size);
     font-weight: var(--fontweight-light);
     align-content: center;
@@ -1168,33 +1190,37 @@ h6{
 }
 
 .postcard-title{
-    color: var(--primary-color);
+    grid-area: title;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    color: var(--primary-color);
     font-size: var(--bodytext-4-size);
     font-family: var(--font-family-2);
     font-weight: var(--fontweight-bold);
 }
 
 .postcard-text{
-    color: var(--primary-color);
+    grid-area: text;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    color: var(--primary-color);
     font-size: var(--bodytext-1-size);
     font-family: var(--font-family-1);
     font-weight: var(--fontweight-regular);
-    transition: color 0.3s ease;
 }
 
 .postcard-link{
+    grid-area: button;
+    padding-left: 25px;
+    padding-right: 25px;
     display: flex;
     color: var(--accent-color-1);
-    padding-left: 25px;
     align-content: center;
+    text-decoration: none;
+    
+    &:hover{
+        text-decoration: underline;
+    }
 
     img{
         padding-left: 10px;
