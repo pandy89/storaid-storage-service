@@ -1,25 +1,22 @@
 import React from 'react'
+import StarRating from './StarRating'
 
-const Testimonial = () => {
+const Testimonial = ({item}) => {
   return (
-    <div className="card-area">
-        <div className="container">
-            <div className="card-content">
-                <div className="card-item">
-                    <div className="stars">Stars</div>
-                    <div className="review-text">The facility is clean, secure, and easy to access. I felt confident leaving my belongings here knowing they were protected and well cared for.</div>
-                    <div className="user-info">
-                        <div className="user-avatar"></div>
-                        <div className="user-name-title">
-                            <span className="user-name">Name</span>
-                            <span className="user-title">Title</span>
-                        </div>
-                    </div>
-                    <div className="testimonials-quots"><img src="/icons/quotation-marks.svg" /></div>
+    <div className="testimonial-card">
+        <div className="testimonial-card-item">
+            <div className="star-rating"><StarRating starRating={item.rating} /></div>
+            <div className="review-text">{item.comment}</div>
+            <div className="user-info">
+                <img className="user-avatar" src={item.avatarUrl} alt={item.name} />
+                <div className="user-name-title">
+                    <h6>{item.name}</h6>
+                    <span className="user-title">{item.companyName}</span>
                 </div>
             </div>
+            <div className="testimonial-quots"><img src="/icons/quotation-marks.svg" alt="Quatation marks" /></div>
         </div>
-    </div>
+    </div>    
   )
 }
 
