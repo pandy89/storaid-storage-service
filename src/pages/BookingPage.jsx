@@ -4,6 +4,7 @@ import HeroSubPage from '../components/sections/HeroSubPage'
 import BookStorage from '../components/sections/BookStorage'
 import Subscribe from '../components/sections/Subscribe'
 import WhyUs from '../components/sections/WhyUs'
+import FaqSection from '../components/sections/FaqSection'
 
 
 const BookingPage = () => {
@@ -13,7 +14,7 @@ const BookingPage = () => {
     {/* BookingUnit */}
     <WhyUs />
     <BookStorage /> 
-    {/* FAQ */}
+    <FaqSection />
     <Subscribe />
     </>
   )

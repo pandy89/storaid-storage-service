@@ -646,6 +646,33 @@ h6{
     justify-content: space-between;
 }
 
+/* FAQ section */
+.faq-area{
+    display: flex;
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+
+.faq-headline{
+    color: var(--accent-color-1);
+    
+}
+
+.faq-subheadline{
+    width: 700px;
+    font-size: 3.25rem;
+    line-height: 1.1;
+    padding-bottom: 1rem;
+}
+
+.faq-text{
+    display: flex;
+    font-size: var(--bodytext-1-size);
+    width: 600px;
+    padding-bottom: 1rem;
+}
+
+
 /* Subscribe section */
 .subscribe{
     background-color: var(--tertiary-color-2);
@@ -994,25 +1021,12 @@ h6{
     padding-right: 1rem;
 }
 
-
 .answer.active {
     display: block;
     color: var(--text-color);
     padding: 1.5rem 3rem .5rem 3rem;
     transition: all 0.3s ease-in;
 }
-
-/* .answer {
-    display: none;
-    margin-top: 0.5rem;
-}
-
-.active .answer {
-    display: block;
-    padding: 1rem 0px 1rem 0px;
-    color: var(--accordion-answer-text-color);
-    transition: all 0.3s ease-in;
-} */
 
 .active img {
     background-color: var(--primary-color);
@@ -1047,7 +1061,6 @@ h6{
     color: var(--white);
 } 
 
-
 /* Icon info Block */
 .icon-info-block{
     display: flex;
@@ -1078,10 +1091,6 @@ h6{
 .icon-info-block-textcontent{
     align-content: center;
 }
-
-/* .icon-info-block-title{
-
-} */
 
 .icon-info-block-text{
     width: 550px;
@@ -1129,7 +1138,6 @@ h6{
     padding-bottom: 3px;
     margin-bottom: 0;
 }
-
 
 /* Key Value */
 .keyvalues-area{
@@ -1463,13 +1471,6 @@ h6{
     }
 }
 
-
-
-
-
-
-
-
 /* Testimonials section */
 /*Chat GPT helpt me with the background on the section. */
 #testimonials-area{
@@ -1579,14 +1580,6 @@ h6{
     align-items: end;
     justify-items: end;
 }
-
-
-
-
-
-
-
-
 
 /* Tiles */
 /* Cardsizes variants */
@@ -1738,10 +1731,7 @@ textarea{
     margin-top: 4px;
 }
 
-
 /* Booking Form */
-
-
 .booking-form{
     display: grid;
     gap: 1rem;

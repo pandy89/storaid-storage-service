@@ -4,6 +4,7 @@ import OurServices from '../components/sections/OurServices'
 import Testimonials from '../components/sections/Testimonials'
 import BookStorage from '../components/sections/BookStorage'
 import Subscribe from '../components/sections/Subscribe'
+import FaqSection from '../components/sections/FaqSection'
 
 
 const ServicePage = () => {
@@ -12,7 +13,7 @@ const ServicePage = () => {
       <HeroSubPage title="Services" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."  />
       <OurServices />
       <Testimonials />
-      {/* FAQ */}
+      <FaqSection />
       <BookStorage/>
       <Subscribe />
     </>
