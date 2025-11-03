@@ -58,8 +58,8 @@
     --button-hover-dark-background-color: hsla(0, 0%, 100%, 1);
 
     /*Accordion*/
-    --accordion-background-color: hsla(0, 0%, 100%, 1);
-    --accordion-answer-text-color: hsla(0, 0%, 100%, 0.7);
+    --accordion-background-color: hsla(0, 0%, 100%, 0.04);
+    --accordion-answer-text-color: hsla(0, 0%, 100%, 0.7); 
 }
 
 html, body{
@@ -926,6 +926,127 @@ h6{
         cursor: pointer;
     }
 }
+
+/* Faq Accordion */
+.accordion__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.questions__accordion {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--tertiary-color-1);
+    border-radius: 5px;
+    padding: .5rem 1rem .5rem 1rem; 
+}
+
+.question.active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--accent-color-1);
+    border-radius: 5px;
+    color: var(--accent-color-2);
+    padding: .5rem 1rem .5rem 1rem; 
+}
+
+.question img {
+    background-color: var(--gray-100);
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    padding: 0.8rem;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.3s ease-in;
+}
+
+.questions-answer__accordion {
+    display: flex;
+    flex-direction: column;
+    width: 673px;
+    border-radius: 8px;
+    margin-bottom: 1.438rem;
+}
+
+.active.questions-answer__accordion {
+    display: flex;
+    flex-direction: column;
+    width: 673px;
+    border-radius: 8px;
+}
+
+.title__question {
+    font-weight: 600;
+    color: var(--gray-900);
+    cursor: pointer;
+    width: 100%;
+    padding-right: 1rem;
+}
+
+
+.answer.active {
+    display: block;
+    color: var(--text-color);
+    padding: 1.5rem 3rem .5rem 3rem;
+    transition: all 0.3s ease-in;
+}
+
+/* .answer {
+    display: none;
+    margin-top: 0.5rem;
+}
+
+.active .answer {
+    display: block;
+    padding: 1rem 0px 1rem 0px;
+    color: var(--accordion-answer-text-color);
+    transition: all 0.3s ease-in;
+} */
+
+.active img {
+    background-color: var(--primary-color);
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    padding: 0.8rem;
+    text-align: center;
+    justify-content: center;
+    transform: rotate(180deg);
+}
+
+.chevron {
+    color: var(--gray-900);
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in, fill 0.3s ease-in, color 0.3s ease-in;
+}
+
+.active .chevron {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    transform: rotate(180deg);
+    color: var(--white);
+} 
+
 
 /* Icon info Block */
 .icon-info-block{
