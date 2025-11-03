@@ -1,5 +1,6 @@
 import React from 'react'
 import IconInfoBlock from '../elements/IconInfoBlock'
+import { Link } from 'react-router-dom'
 
 const FindUsOn = () => {
   return (
@@ -20,10 +21,10 @@ const FindUsOn = () => {
                             <h5>Our Social Media</h5>
                             <div className="line"></div>
                             <div className="find-us-social-media-icons">
-                                <img src="icons/facebook.svg" alt="Facebook icon" />
-                                <img src="icons/x.svg" alt="X icon" />
-                                <img src="icons/instagram.svg" alt="Instagram icon" />
-                                <img src="icons/youtube.svg" alt="LinkedIn icon" />
+                                <Link to="/"><img src="icons/facebook.svg" alt="Facebook icon" /></Link>
+                                <Link to="/"><img src="icons/x.svg" alt="X icon" /></Link>
+                                <Link to="/"><img src="icons/instagram.svg" alt="Instagram icon" /></Link>
+                                <Link to="/"><img src="icons/youtube.svg" alt="LinkedIn icon" /></Link>
                             </div>
                         </div>
                     </div>
