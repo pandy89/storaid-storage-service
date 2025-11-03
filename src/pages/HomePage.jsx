@@ -9,8 +9,7 @@ import PricePlan from '../components/sections/PricePlan'
 import BookStorage from '../components/sections/BookStorage'
 import BlogPost from '../components/sections/BlogPost'
 import Subscribe from '../components/sections/Subscribe'
-
-import Faq from '../components/elements/Faq'
+import FaqSection from '../components/sections/FaqSection'
 
 const HomePage = () => {
 
@@ -21,12 +20,13 @@ const HomePage = () => {
         <Brands />
         <OurServices />
         <Testimonials />
+        <FaqSection />
         <WhyUs />
         <PricePlan />
         <BookStorage />
         <BlogPost />
         <Subscribe />
-        <Faq />
+        
         </>
     )
 }
