@@ -1,14 +1,14 @@
 import React from 'react'
 import Button from '@elements/Button'
 
-const PriceList = () => {
+const PriceList = ({ header, price }) => {
   return (
     <>
         <div className="pricelist-card">
-            <span className="pricelist-header"><h5>Small Unit</h5></span>
+            <span className="pricelist-header"><h5>{header}</h5></span>
             <img className="dollarsign" src="/icons/dollarsign.svg" alt="Dollar sign icon" />        
             <div className="pricelist-price">            
-                <span className="price">50</span>
+                <span className="price">{price}</span>
                 <span className="month">/month</span>
             </div>
             <div className="pricelist-text">
