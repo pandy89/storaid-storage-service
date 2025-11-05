@@ -25,7 +25,7 @@ const PriceList = () => {
                 </ul>
             </div>
             <div className="pricelist-button">
-                <Button name="Rent now" aria-label="Rent priceplan to 50$ per month" />
+                <Button name="Rent Now" aria-label="Rent priceplan to 50$ per month" />
             </div>
         </div>
     </>
