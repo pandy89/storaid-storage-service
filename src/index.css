@@ -168,6 +168,41 @@ h6{
     max-width: 1367px;
 }
 
+
+.subheadline{
+    width: 700px;
+    font-family: var(--font-family-2);
+    font-size: var(--h4-size);
+    color: var(--accent-color-2);
+    font-weight: var(--fontweight-bold);
+    margin: 0;    
+}
+
+.headline{
+    margin: 0;
+    width: 700px;
+    font-family: var(--font-family-2);
+    font-size: var(--h3-size);
+    font-weight: var(--fontweight-bold);    
+    font-size: 3.25rem;
+    line-height: 1.1;
+    padding-bottom: 1rem;
+}
+
+.intro-text{
+    display: flex;
+    font-size: var(--bodytext-1-size);
+    width: 650px;
+    padding-bottom: 1rem;
+}
+
+.content-size{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 /* SECTIONS STYLES */
 /* Top Bar section */
 .top-bar-area{
@@ -320,84 +355,51 @@ h6{
 
 /* About Us section */
 .about-us-area{
-    display: grid;
-    grid-template-columns: auto;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;    
     padding-top: 95px;
-    padding-bottom: 95px;
-    max-width: 1367px;
+    padding-bottom: 95px;  
+}
 
-    .about-us-content{
-        display: grid;
-        column-gap: 2rem;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto auto auto auto ;
-        grid-template-areas:    "keyvalues subheadline subheadline"
-                                "keyvalues headline headline"
-                                "keyvalues about-text about-text"
-                                "keyvalues tiles tiles"
-                                "keyvalues discover more-info"
-        ;
-    }
+.about-us-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:    "keyvalues text text"
+                            "keyvalues tiles tiles"
+                            "keyvalues button info"
+    ;
+    column-gap: 2rem;
+    row-gap: 0;
 }
 
 .keyvalues{
     grid-area: keyvalues;
 }
 
-.about-us-subheadline{
-    grid-area: subheadline;
-    color: var(--accent-color-2);
-}
-
-.about-us-headline{
-    grid-area: headline;
-    width: 700px;
-    font-size: 3.25rem;
-    line-height: 1.1;
-    padding-bottom: 1rem;
-}
-
-.about-us-text{
-    grid-area: about-text;
-    font-size: var(--bodytext-1-size);
-    width: 650px;
-    padding-bottom: 1rem;
+.section-text-block{
+    grid-area: text;
 }
 
 .tiles{
     grid-area: tiles;
     display: flex;
     gap: 1rem;
-    padding-bottom: 1rem;    
+    padding-bottom: 1rem;
 }
 
 .about-us-button{
-    grid-area: discover;
-    gap: 5rem;
-    align-content: center;
-    width: 180px;
-}
-
-.info-icon{
-    width: 60px;
-    height: 60px;
-    background-color: var(--secondary-color);
-    text-align: center;
-    align-content: center;
-    padding-top: 5px;
-    border-radius: 50%;
-}
-
-.info-text{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-weight: var(--fontweight-bold);
+    grid-area: button;
+    padding-top: 10px;
+    width: 200px;
 }
 
-.more-info{
+.icon-info-block{
     display: flex;
+    grid-area: info;
     gap: 1rem;
+    padding-top: 8px;
     align-items: center;
 }
 
@@ -412,7 +414,6 @@ h6{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
 
 /* Our Services Section */
 #our-services-area{

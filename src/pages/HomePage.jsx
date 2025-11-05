@@ -26,7 +26,6 @@ const HomePage = () => {
         <BookStorage />
         <BlogPost />
         <Subscribe />
-        
         </>
     )
 }
