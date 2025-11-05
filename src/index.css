@@ -1716,8 +1716,17 @@ h6{
 #comments{
     display: grid;
     grid-area: comments;
-    min-height: 150px;
+}
 
+.contact-form-textarea{
+    font-family: var(--font-family-1);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    min-height: 80px;
+    resize: none;
 }
 
 #submit-button{
@@ -1726,7 +1735,7 @@ h6{
     width: 180px;
 }
 
-input{
+.contact-form-input{
     font-family: var(--font-family-1);
     color: var(--secondary-color);
     padding: 1rem;
@@ -1743,17 +1752,17 @@ input{
     }
 }
 
-label{
+.contact-form-label{
     padding-bottom: 0.5rem;
 }
 
-textarea{
+/* textarea{
     font-family: var(--font-family-1);
     color: var(--secondary-color);
     padding: 1rem;
     border: 1px solid #c8c8c8;
     border-radius: 5px;
-    resize: vertical;
+    resize: none;
     width: 100%;
     margin-bottom: 8px;
 
@@ -1765,7 +1774,7 @@ textarea{
     &::placeholder{
         font-size: 1rem;
     }
-}
+} */
 
 .required::after{
     content: " *";
@@ -1839,7 +1848,7 @@ label{
     padding-bottom: 0.5rem;
 }
 
-textarea{
+/* textarea{
     font-family: var(--font-family-1);
     color: var(--secondary-color);
     padding: 1rem;
@@ -1857,7 +1866,7 @@ textarea{
     &::placeholder{
         font-size: 1rem;
     }
-}
+} */
 
 .required::after{
     content: " *";

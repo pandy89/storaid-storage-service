@@ -7,8 +7,8 @@ const ContactForm = () => {
     <form className="form-area" noValidate>
         <div className="contact-form">
             <div className="form-group" id="yourName">
-                <label className="required">Your Name</label>
-                <input type="text" name="text" placeholder="Your Name" required/>
+                <label className="required contact-form-label">Your Name</label>
+                <input className="contact-form-input" type="text" name="text" placeholder="Your Name" required/>
                 <div className="yourName-error error"></div>
             </div>
             <div className="form-group" id="email">
@@ -28,7 +28,7 @@ const ContactForm = () => {
             </div> 
             <div className="form-group" id="comments">
                 <label className="required">Comments / Questions</label>
-                <textarea type="text" name="comments" placeholder="Comments" required />
+                <textarea className="contact-form-textarea" type="text" name="comments" placeholder="Comments" required />
                 <div className="comment-error error"></div>
             </div>
             <div id="submit-button">
