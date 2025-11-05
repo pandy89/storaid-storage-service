@@ -280,6 +280,23 @@ h6{
     }
 }
 
+.menu-button{
+    padding: 14px 16px;
+    font-family: var(--font-family-2);
+    font-size: var(--bodytext-3);
+    font-weight: var(--fontweight-semibold);
+    color: var(--secondary-color);
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+        color: var(--accent-color-2);
+        text-decoration: none;
+    }
+}
+
+
+
 /* Main hero section */
 .mainhero-area{
     background-color: var(--accent-color-2);
@@ -927,11 +944,13 @@ h6{
     text-align: center;
     height: 52px;
     cursor: pointer;
+    text-decoration: none;
 
     &:hover{
         background-color: var(--button-hover-background-color);
         color: var(--text-color-dark);
         cursor: pointer;
+        text-decoration: none;
     }
 }
 
@@ -947,11 +966,13 @@ h6{
     text-align: center;
     height: 52px;
     cursor: pointer;
+    text-decoration: none;
 
     &:hover{
         background-color: var(--primary-color);
         color: var(--text-color-dark);
         cursor: pointer;
+        text-decoration: none;
     }
 }
 
@@ -1455,7 +1476,7 @@ h6{
     transition: all 0.5s ease;
 
     &:hover{
-        background-color: var(--secondary-color);
+        background-color: var(--accent-color-2);
     }
 }
 
@@ -1477,6 +1498,12 @@ h6{
     width: 95%;
     align-content: center;    
     padding-bottom: 2rem;
+}
+
+.pricelist-button:hover{
+    width: 150px;
+    margin: 0 auto;
+    color: red;
 }
 
 

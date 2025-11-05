@@ -13,10 +13,9 @@ const NavBar = () => {
                 <NavLink className="menu-item" to="/">Home</NavLink>
                 <NavLink className="menu-item" to="/about">About Us</NavLink> 
                 <NavLink className="menu-item" to="/services">Services</NavLink> 
-                <NavLink className="menu-item" to="/contact">Contact Us</NavLink> 
-                <NavLink className="menu-item" to="/booking">Booking</NavLink>
+                <NavLink className="menu-item" to="/contact">Contact Us</NavLink>
             </nav>
-                <Button name="Book now" aria-label="Button to book a demo." />
+                <NavLink className="menu-button" to="/booking"><Button name="Book Now" aria-label="Button to book a storeage." /></NavLink>
             </div>
         </div>
     </div>
