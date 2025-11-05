@@ -16,7 +16,7 @@ const AboutUsSection = () => {
                         <KeyValues />
                     </div>
                     <div className="section-text-block">
-                    <SectionTextBlock subheadline="About us" headline="Providing a Safe Space for Your Treasured Items" introtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi, non sodales augue. Phasellus eget elit gravida." /> 
+                        <SectionTextBlock subheadline="About us" headline="Providing a Safe Space for Your Treasured Items" introtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi, non sodales augue. Phasellus eget elit gravida." /> 
                     </div>
                     <div className="tiles">
                         <Tiles title="Vision" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." variant="primary" titleVariant="primary" textVariant="primary"/>

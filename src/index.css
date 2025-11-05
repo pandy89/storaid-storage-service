@@ -420,7 +420,7 @@ h6{
     display: flex;
     grid-area: info;
     gap: 1rem;
-    padding-top: 8px;
+    padding-top: 2px;
     align-items: center;
 }
 
