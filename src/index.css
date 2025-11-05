@@ -1657,6 +1657,10 @@ h6{
     padding: 15px 15px 0 20px;
 }
 
+.tilestitle{
+    font-weight: var(--fontweight-bold);
+}
+
 .tile-text{
     padding: 16px 25px 16px 25px;
 }
