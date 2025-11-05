@@ -207,6 +207,8 @@ h6{
 /* Top Bar section */
 .top-bar-area{
     background-color: var(--secondary-color);
+    padding-left: 5rem;
+    padding-right: 6rem;
 }
 
 .top-bar-content{
@@ -245,8 +247,10 @@ h6{
 
 
 /* Nav bar section */
-.nav-bar{
+#nav-bar{
     background-color: var(--background-color);
+    padding-left: 5rem;
+    padding-right: 5rem;
 } 
 
 .nav-menu{

@@ -6,7 +6,7 @@ import Button from '@elements/Button'
 const NavBar = () => {
   return (
     <div id="nav-bar">
-        <div className="container">
+        
             <div className="nav-menu">
             <Link to="/"><div className="logotyp"><img src="/logotyp.svg" alt="StorAid Storage Company logotyp" /></div></Link> 
             <nav className="nav-list">
@@ -18,7 +18,7 @@ const NavBar = () => {
                 <NavLink className="menu-button" to="/booking"><Button name="Book Now" aria-label="Button to book a storeage." /></NavLink>
             </div>
         </div>
-    </div>
+    
   )
 }
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const TopBar = () => {
   return (
     <div className="top-bar-area">
-        <div className="container">
+        
         <div className="top-bar-content">
             <div className="top-bar-contact">
                 <div className="top-bar-phone">
@@ -22,7 +22,7 @@ const TopBar = () => {
             </div>
         </div>
         </div>
-    </div>
+    
   )
 }
 
