@@ -1,34 +1,32 @@
 import React from 'react'
-import Button from '@elements/Button'
 
 const BookingForm = () => {
+
   return (
-    <form className="form-area" noValidate>
-        <div className="booking-form">
-            <div className="form-group" id="yourName">
+    <form className="bookingform-area" noValidate>
+        <div className="bookingform-content">     
+            <div className="form-group" id="bookingform-name">
                 <label className="required">Your Name</label>
-                <input type="text" name="text" placeholder="Your Name" required/>
-                <div className="yourName-error error"></div>
+                <input className="bookingform-input" type="text" name="text" placeholder="Your Name" required/>
+                <div className="error-message"></div>
             </div>
-            <div className="form-group" id="email">
+             <div className="form-group" id="bookingform-email">
                 <label className="required">Email</label>
-                <input type="email" name="email" placeholder="Email" required />
-                <div className="email-error error"></div>
+                <input className="bookingform-input" type="email" name="email" placeholder="Email" required />
+                <div className="error-message"></div>
             </div>
-            <div className="form-group" id="unit">
+            <div className="form-group" id="bookingform-unit">
                 <label className="required">Choose Unit</label>
-                <input type="text" name="unit" placeholder="Choose Unit" />
-                <div className="unit-error error"></div>
+                <input className="bookingform-input" type="text" name="unit" placeholder="Choose Unit" />
+                <div className="error-message"></div>
             </div>
-            <div className="form-group" id="storage">
+            <div className="form-group" id="bookingform-storage">
                 <label className="required">Storage purpose</label>
-                <textarea type="text" name="storage" placeholder="Describe your storage purpose so that we can match your request" required />
-                <div className="storage-error error"></div>
+                <textarea className="bookingform-textarea" type="text" name="storage" placeholder="Describe your storage purpose so that we can match your request" required />
+                <div className="error-message"></div>
             </div>
-            <div id="submit-button">
-                <Button type="submit" name="Book Unit" />                   
-            </div>
-        </div>
+            <button className="btn bookingform-button" type="submit">Book Unit</button>
+        </div>        
     </form>
   )
 }

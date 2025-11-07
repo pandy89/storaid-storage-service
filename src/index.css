@@ -168,6 +168,13 @@ h6{
     max-width: 1367px;
 }
 
+.STBF-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+}
+
 
 .subheadline{
     width: 700px;
@@ -518,12 +525,7 @@ h6{
     color: var(--accent-color-2);
 }
 
-.why-us-box{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 3rem;
-}
+
 
 .why-us-headline{
     font-size: 3.25rem;
@@ -604,6 +606,24 @@ h6{
 }
 
 /* Booking section */
+.booking-unit-area{
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.booking-unit-content{
+    display: flex;
+    gap: 2rem;
+}
+
+.booking-unit-image{
+    background-color: var(--placeholder-bg-color);
+    border: 5px solid var(--tertiary-color-1);
+    height: 545px;
+    width: 673px;
+}
+
+
 #booking{
     background-color: var(--accent-color-2);
     padding-top: 95px;
@@ -1806,6 +1826,88 @@ h6{
 }
 
 
+/* Booking form */
+.bookingform-area{
+    background-color: var(--tertiary-color-2);
+    padding: 3rem;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.bookingform-content{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:    "yname email"
+                            "unit unit"
+                            "storage storage"
+                            "button button"
+                            ;
+}
+
+#bookingform-name{
+    display: grid;
+    grid-area: yname;
+}
+
+#bookingform-email{
+    display: grid;
+    grid-area: email;
+}
+
+#bookingform-unit{
+    display: grid;
+    grid-area: unit;
+}
+
+#bookingform-storage{
+    display: grid;
+    grid-area: storage;
+    min-height: 150px;
+}
+
+.bookingform-button{
+    display: grid;
+    grid-area: button;
+    width: 150px;
+}
+
+.bookingform-input{
+    font-family: var(--font-family-1);
+    color: var(--secondary-color);
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+
+    &:focus{
+        font-family: var(--font-family-1);
+        color: var(--secondary-color);
+        border: 1px solid var(--primary-color);
+        font-size: 1rem;
+    }
+
+    &::placeholder{
+        font-size: 1rem;
+    }
+}
+
+.bookingform-textarea{
+    font-family: var(--font-family-1);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    min-height: 80px;
+    resize: none;
+}
+
+
+
+/* OLD */
 
 /* Booking Form */
 /*.booking-form{
