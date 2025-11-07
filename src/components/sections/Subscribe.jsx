@@ -14,7 +14,7 @@ const Subscribe = () => {
                 <div className="subscribe-form">
                   <div>
                     <input className="input-field-subscribe" name="subscribe" type="email" placeholder="Enter your email address *" id="inputField" required /><span className="asterisk_required_field"></span>
-                    <div className="comment-error error"></div>
+                    <div className="error"></div>
                   </div>
                   <Button type="submit" name="Submit" aria-label="Submit to our newsletter" />
                 </div>
