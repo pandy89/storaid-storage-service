@@ -7,7 +7,7 @@ const WhyUs = () => {
         <div className="container">
             <div className="why-us-area">
                 <h4 className="why-us-subheadline">Why Choose Us</h4>
-                <div className="why-us-box">
+                <div className="STBF-box">
                     <h3 className="why-us-headline">Choose Us for Exeptional Storage Solutions</h3>
                     <span className="why-us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.</span>
                 </div>
