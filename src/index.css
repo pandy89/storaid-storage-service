@@ -735,7 +735,8 @@ h6{
 .subscribe-form{
     display: flex;
     gap: 1rem;
-}
+ }
+ /*
 .input-field-subscribe{
     font-family: var(--font-family-1);
     color: var(--secondary-color);
@@ -762,7 +763,7 @@ h6{
     font-size: 0.8em;
     color: var(--error-color);
     margin-top: 4px;
-}
+} */
 
 /* Footer section */
 #footer{
@@ -1916,6 +1917,41 @@ h6{
     resize: none;
 }
 
+
+/* Subscribe form */
+.subscribe-form-area{
+    display: flex;
+    gap: 1rem
+ }
+
+.subscribeform-input{
+    font-family: var(--font-family-1);
+    color: var(--secondary-color);
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 540px;
+
+    &:focus{
+        font-family: var(--font-family-1);
+        color: var(--secondary-color);
+        border: 1px solid var(--primary-color);
+        font-size: 1rem;
+    }
+
+    &::placeholder{
+        font-size: 1rem;
+    }
+}
+
+.input-error{
+    border: 1px solid var(--error-color);
+    font-family: var(--font-family-1);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    margin-top: 0;
+}
 
 
 /* 
