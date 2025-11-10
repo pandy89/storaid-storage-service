@@ -11,5 +11,6 @@ export default defineConfig({
       '@sections': path.resolve(__dirname, 'src/components/sections'),
       '@pages': path.resolve(__dirname, 'src/pages')
     }
-  }
+  },
+  base: 'storaid-storage-service'
 })
