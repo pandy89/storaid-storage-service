@@ -1499,7 +1499,7 @@ h6{
     height: 669px;
     align-content: center;
     position: relative;
-    background: url('./bg-image.svg') center/cover no-repeat;
+    background: url('/bg-image.svg') center/cover no-repeat;
 }
 
 #testimonials-area::before {
