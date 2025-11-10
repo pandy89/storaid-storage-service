@@ -1,11 +1,12 @@
 import Button from '@elements/Button'
+import dollarsign from '/icons/dollarsign.svg'
 
 const PriceList = ({ header, price }) => {
   return (
     <>
         <div className="pricelist-card">
             <span className="pricelist-header"><h5>{header}</h5></span>
-            <img className="dollarsign" src="/icons/dollarsign.svg" alt="Dollarsign icon" />        
+            <img className="dollarsign" src={dollarsign} alt="Dollarsign icon" />        
             <div className="pricelist-price">            
                 <span className="price">{price}</span>
                 <span className="month">/month</span>

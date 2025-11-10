@@ -1,12 +1,17 @@
 import IconInfoBlock from '../elements/IconInfoBlock'
 import { Link } from 'react-router-dom'
+import facebook from '/icons/facebook.svg'
+import x from '/icons/x.svg'
+import instagram from '/icons/instagram.svg'
+import youtube from '/icons/youtube.svg'
+import secondSilhouette from '/silhouette-2.svg'
 
 const FindUsOn = () => {
   return (
     <section id="find-us-on-area">
         <div className="container">
             <div className="find-us-on-content">
-                <div className="find-us-image"><img src="/silhouette-2.svg" alt="Silhouette illustration representing organized storagepersonal" /></div>
+                <div className="find-us-image"><img src={secondSilhouette} alt="Silhouette illustration representing organized storagepersonal" /></div>
                 <div className="find-us-on-box">
                     <div className="find-us-info-box">
                         <h3 className="find-us-title">Find Us On:</h3>
@@ -20,10 +25,10 @@ const FindUsOn = () => {
                             <h5>Our Social Media</h5>
                             <div className="line"></div>
                             <div className="find-us-social-media-icons">
-                                <Link to="https://www.facebook.com/"><img src="icons/facebook.svg" alt="Facebook icon" /></Link>
-                                <Link to="https://x.com/"><img src="icons/x.svg" alt="X icon" /></Link>
-                                <Link to="https://www.instagram.com/"><img src="icons/instagram.svg" alt="Instagram icon" /></Link>
-                                <Link to="https://www.youtube.com/"><img src="icons/youtube.svg" alt="LinkedIn icon" /></Link>
+                                <Link to="https://www.facebook.com/"><img src={facebook} alt="Social media icon Facebook icon" /></Link>
+                                <Link to="https://x.com/"><img src={x} alt="Social media icon X icon (twitter)" /></Link>
+                                <Link to="https://www.instagram.com/"><img src={instagram} alt="Social media icon Instagram icon" /></Link>
+                                <Link to="https://www.youtube.com/"><img src={youtube} alt="Social media icon YouTube icon" /></Link>
                             </div>
                         </div>
                     </div>

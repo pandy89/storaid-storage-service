@@ -1,4 +1,5 @@
 import StarRating from './StarRating'
+import quotation from '/icons/quotation-marks.svg'
 
 const Testimonial = ({item}) => {
   return (
@@ -13,7 +14,7 @@ const Testimonial = ({item}) => {
                     <span className="user-title">{item.companyName}</span>
                 </div>
             </div>
-            <div className="testimonial-quots"><img src="/icons/quotation-marks.svg" alt="Quatation marks" /></div>
+            <div className="testimonial-quots"><img src={quotation} alt="Quatation marks" /></div>
         </div>
     </div>    
   )

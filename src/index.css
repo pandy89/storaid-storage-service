@@ -1370,7 +1370,7 @@ h6{
 .pricelist-card{
     height: auto;
     width: 321px;
-    background-color: var(--tertiary-color-3);
+    background-color: var(--secondary-color);
     border: 3px solid var(--tertiary-color-1);
     border-radius: 10px;    
     padding-top: 37px;
@@ -1381,7 +1381,7 @@ h6{
 
 .pricelist-header{
     text-align: center;
-    color: var(--text-color);
+    color: var(--text-color-dark);
 }
 
 .pricelist-price{
@@ -1398,7 +1398,7 @@ h6{
         padding-left: 1rem;
         font-size: 1.3rem;
         font-weight: var(--fontweight-semibold);
-        color: var(--text-color);
+        color: var(--text-color-dark);
     }
 }
 
@@ -1411,13 +1411,13 @@ h6{
 
 .pricelist-text{
     padding-bottom: 2rem;
-    color: var(--secondary-color);
+    color: var(--text-color-dark);
     text-align: center;
 }
 
 .divider{
     margin: 0 auto;
-    border-top: 1px solid var(--secondary-color);
+    border-top: 1px solid var(--text-color-dark);
     width: 95%;
     align-content: center;    
     padding-bottom: 2rem;
@@ -1435,12 +1435,12 @@ h6{
 
 .checklist-item{
     margin: 0;
-    color: var(--text-color);
+    color: var(--text-color-dark);
     padding-bottom: 0.5rem;
 }
 
 .list-icon{
-    color: var(--secondary-color);
+    color: var(--accent-color-1);
     padding-right: 0.5rem; 
 }
 
@@ -1453,7 +1453,7 @@ h6{
 .pricelist-card{
     height: auto;
     width: 321px;
-    background-color: var(--tertiary-color-3);
+    background-color: var(--secondary-color);
     border: 3px solid var(--tertiary-color-1);
     border-radius: 10px;    
     padding-top: 37px;

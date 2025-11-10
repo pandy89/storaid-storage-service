@@ -1,11 +1,12 @@
 import { Link, NavLink } from 'react-router-dom'
 import Button from '@elements/Button'
+import logotyp from '/logotyp.svg'
 
 const NavBar = () => {
   return (
     <div id="nav-bar">        
             <div className="nav-menu">
-              <Link to="/"><div className="logotyp"><img src="/logotyp.svg" alt="StorAid Storage Company logotyp" /></div></Link> 
+              <Link to="/"><div className="logotyp"><img src={logotyp} alt="StorAid Storage Company logotyp" /></div></Link> 
             <nav className="nav-list">
                 <NavLink className="menu-item" to="/">Home</NavLink>
                 <NavLink className="menu-item" to="/about">About Us</NavLink> 
