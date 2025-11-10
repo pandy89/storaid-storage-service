@@ -1,6 +1,4 @@
-import React from 'react'
 import HeroSubPage from '../components/sections/HeroSubPage';
-
 import Brands from '../components/sections/Brands';
 import Testimonials from '../components/sections/Testimonials';
 import WhyUs from '../components/sections/WhyUs';

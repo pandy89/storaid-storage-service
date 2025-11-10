@@ -1,12 +1,8 @@
-import React from 'react'
 import HeroSubPage from '../components/sections/HeroSubPage'
 import GetInTouch from '../components/sections/GetInTouch'
 import FindUsOn from '../components/sections/FindUsOn'
 import Subscribe from '../components/sections/Subscribe'
 import FaqSection from '../components/sections/FaqSection'
-
-
-
 
 const ContactPage = () => {
   return (

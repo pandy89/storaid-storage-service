@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Tiles = ({title, text, variant = "default", titleVariant ="default", textVariant = "default" }) => {
 
   return (

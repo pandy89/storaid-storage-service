@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Brands = () => {
   return (
     <section id="brand-area">

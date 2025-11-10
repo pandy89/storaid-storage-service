@@ -1,4 +1,3 @@
-import React from 'react'
 import ContactForm from '../elements/ContactForm'
 
 const GetInTouch = () => {

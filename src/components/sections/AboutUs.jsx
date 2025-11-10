@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Tiles from '@elements/Tiles'
 import Button from '@elements/Button'
 import KeyValues from '../elements/KeyValues'
@@ -23,7 +21,7 @@ const AboutUsSection = () => {
                         <Tiles title="Mission" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan tium doloremque laudantium." variant="primary" titleVariant="primary" textVariant="primary" />
                     </div>
                     <div className="about-us-button">
-                        <Button name="Discover More" aria-label="Discover more about us." />
+                        <Button name="Discover more" to="/about" aria-label="Button to book a storeage."/>
                     </div>
                     <div className="icon-info-block">
                         <IconInfoBlock title="More Information" text="+46 123 122 44" variant="secondary" icon="phone-2"/>

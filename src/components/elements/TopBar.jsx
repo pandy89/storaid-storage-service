@@ -1,10 +1,8 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 const TopBar = () => {
   return (
-    <div className="top-bar-area">
-        
+    <div className="top-bar-area">        
         <div className="top-bar-content">
             <div className="top-bar-contact">
                 <div className="top-bar-phone">
@@ -15,14 +13,13 @@ const TopBar = () => {
                 </div>
             </div>
             <div className="top-bar-sm">
-                <Link to="/"><img src="/icons/facebook.svg" alt="Social media icon for Facebook" /></Link>
-                <Link to="/"><img src="/icons/x.svg" alt="Social media icon for X (twitter)" /></Link>
-                <Link to="/"><img src="/icons/instagram.svg" alt="Social media icon for Instagram" /></Link>
-                <Link to="/"><img src="/icons/youtube.svg" alt="Social media icon for YouTube" /></Link>
+                <Link to="https://www.facebook.com/"><img src="/icons/facebook.svg" alt="Social media icon for Facebook" /></Link>
+                <Link to="https://x.com/"><img src="/icons/x.svg" alt="Social media icon for X (twitter)" /></Link>
+                <Link to="https://www.instagram.com/"><img src="/icons/instagram.svg" alt="Social media icon for Instagram" /></Link>
+                <Link to="https://www.youtube.com/"><img src="/icons/youtube.svg" alt="Social media icon for YouTube" /></Link>
             </div>
         </div>
-        </div>
-    
+    </div>    
   )
 }
 

@@ -1,6 +1,4 @@
-import React from 'react'
 import HeroSubPage from '../components/sections/HeroSubPage'
-
 import BookStorage from '../components/sections/BookStorage'
 import Subscribe from '../components/sections/Subscribe'
 import WhyUs from '../components/sections/WhyUs'

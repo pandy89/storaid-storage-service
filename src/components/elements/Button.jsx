@@ -1,9 +1,13 @@
-import React from 'react'
+import { Link } from "react-router-dom"
 
-const Button = ({name}) => {
-  return (
-    <div className='btn'>{name}</div>
-  )
+const Button = ({name, to, onClick}) => {
+  if (to) {
+    return (
+    <Link to={to} className="btn" onClick={onClick}>
+      {name}
+    </Link>
+    )
+  }
 }
 
 export default Button

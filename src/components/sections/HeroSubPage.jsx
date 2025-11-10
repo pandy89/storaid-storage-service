@@ -1,5 +1,3 @@
-import React from 'react'
-
 const HeroSubPage = ({title, text}) => {
   return (
     <section id="subhero">

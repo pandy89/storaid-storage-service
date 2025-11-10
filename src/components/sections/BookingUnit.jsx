@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionTextBlockFull from '../elements/SectionTextBlockFull'
 import BookingForm from '../elements/BookingForm'
 
@@ -14,8 +13,6 @@ const BookingUnit = () => {
             </div>
             </div>
         </div>
-        
-        
     </section>
   )
 }

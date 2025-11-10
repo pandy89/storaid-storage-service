@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroMainPage from '../components/sections/HeroMainPage'
 import AboutUs from '../components/sections/AboutUs'
 import Brands from '../components/sections/Brands'

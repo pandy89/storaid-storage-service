@@ -257,7 +257,7 @@ h6{
 #nav-bar{
     background-color: var(--background-color);
     padding-left: 5rem;
-    padding-right: 5rem;
+    padding-right: 6rem;
 } 
 
 .nav-menu{
@@ -654,6 +654,7 @@ h6{
 .booking-button-box{
     margin: 0 auto;
     width: 150px;
+    padding-top: 1rem;
 }
 
 /* Blog Post section */

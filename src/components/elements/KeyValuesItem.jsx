@@ -1,5 +1,3 @@
-import React from 'react'
-
 const KeyValuesItem = ({title, text}) => {
   return (
     <div className="keyvalues-item">

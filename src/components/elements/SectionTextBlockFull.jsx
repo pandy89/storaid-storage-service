@@ -1,5 +1,3 @@
-import React from 'react'
-
 const SectionTextBlockFull = ({ subheadline, headline, introtext }) => {
   return (
     <>
