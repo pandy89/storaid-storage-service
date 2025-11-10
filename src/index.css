@@ -1905,96 +1905,82 @@ h6{
     resize: none;
 }
 
-
-
-/* OLD */
-
-/* Booking Form */
-/*.booking-form{
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto;
-    grid-template-areas:    "yourname email"
-                            "unit unit"
-                            "storage storage"
-                            "button button"
-    ;
-}
-
-#yourName{
-    grid-area: yourname;
-    display: grid;
-}
-
-#email{
-    display: grid;
-    grid-area: email;
-}
-
-#unit{
-    display: grid;
-    grid-area: unit;
-}
-
-#storage{
-    display: grid;
-    grid-area: storage;
-    min-height: 150px;
-}
-
-#submit-button{
-    display: grid;
-    grid-area:  button;
-    width: 180px;
-}
-
-input{
+.bookingform-select{
     font-family: var(--font-family-1);
     color: var(--secondary-color);
+    font-size: 1rem;
     padding: 1rem;
     border: 1px solid #c8c8c8;
     border-radius: 5px;
-
-    &:focus{
-        
-        border: 1px solid var(--primary-color);
-    }
-
-    &::placeholder{
-        font-size: 1rem;
-    }
+    min-height: 80px;
+    resize: none;
 }
 
-label{
-    padding-bottom: 0.5rem;
-}
 
- textarea{
-    font-family: var(--font-family-1);
-    color: var(--secondary-color);
-    padding: 1rem;
-    border: 1px solid #c8c8c8;
-    border-radius: 5px;
-    resize: vertical;
+
+/* 
+.custom-select{
+    position: relative;
     width: 100%;
-    margin-bottom: 0.5rem;
+    font-family: var(--font-family-1);
 
-    &:focus{
-        
-        border: 1px solid var(--primary-color);
-    }
-    
-    &::placeholder{
-        font-size: 1rem;
-    }
-} 
+    .select-box{
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid var(--border-color);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: border-color 0.15s ease-in-out;
 
-.required::after{
-    content: " *";
-    color: var(--error-color);
-}
-*/
+        &.active .arrow{
+            transform: rotate(180deg);
+        }
+
+        &.active + .option{
+            display: block;
+        }
+    }
+
+    .arrow{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid var(--border-color);
+    transition: transform 0.15s ease-in-out;
+    }
+
+    .options{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        border: 1px solid var(--border-color);
+        border-top: none;
+        border-radius: 0 0 5px 5px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        display: none;
+
+        .option{
+            padding: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.15s ease-in-out;
+
+            &:hover{
+                background-color: blueviolet;
+                color: white;
+            }
+        }
+    }
+
+} */
+
+
+
+
 
 
 
