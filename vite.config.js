@@ -12,5 +12,5 @@ export default defineConfig({
       '@pages': path.resolve(__dirname, 'src/pages')
     }
   },
-  base: 'storaid-storage-service'
+  base: '/storaid-storage-service/'
 })

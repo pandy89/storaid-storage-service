@@ -10,7 +10,7 @@ export const HeroMainPage = ({title, subtitle, text}) => {
                 <h4 className="mainhero-subheadline">{subtitle}</h4>                    
                 <span className="mainhero-ingress">{text}</span>
                 <div className="mainhero-button"><Button name="Discover more" to="/booking" aria-label="Button to book a storeage."/></div>
-                <div className="mainhero-image"><img src="/silhouette-1.svg" alt="Silhouette illustration representing organized storagepersonal" /></div>
+                <div className="mainhero-image"><img src="./silhouette-1.svg" alt="Silhouette illustration representing organized storagepersonal" /></div>
             </div>
         </div>
     </section>
