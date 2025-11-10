@@ -175,7 +175,6 @@ h6{
     column-gap: 3rem;
 }
 
-
 .subheadline{
     width: 700px;
     font-family: var(--font-family-2);
@@ -208,7 +207,6 @@ h6{
     align-items: center;
     justify-content: space-between;
 }
-
 
 /* SECTIONS STYLES */
 /* Top Bar section */
@@ -251,7 +249,6 @@ h6{
         text-decoration: underline;
     }
 }
-
 
 /* Nav bar section */
 #nav-bar{
@@ -306,8 +303,6 @@ h6{
     }
 }
 
-
-
 /* Main hero section */
 .mainhero-area{
     background-color: var(--accent-color-2);
@@ -357,7 +352,6 @@ h6{
 }
 
 /* Sub hero section */
-
 #subhero{
     background-color: var(--accent-color-2);
     height: 467px;    
@@ -509,8 +503,6 @@ h6{
     grid-area: tile-4;
 }
 
-
-
 /* Why Choose Us section */
 .why-choose-us{
     background-color: var(--tertiary-color-2);
@@ -524,8 +516,6 @@ h6{
 .why-us-subheadline{
     color: var(--accent-color-2);
 }
-
-
 
 .why-us-headline{
     font-size: 3.25rem;
@@ -623,7 +613,6 @@ h6{
     width: 673px;
 }
 
-
 #booking{
     background-color: var(--accent-color-2);
     padding-top: 95px;
@@ -700,8 +689,7 @@ h6{
 }
 
 .faq-headline{
-    color: var(--accent-color-1);
-    
+    color: var(--accent-color-1);  
 }
 
 .faq-subheadline{
@@ -717,7 +705,6 @@ h6{
     width: 600px;
     padding-bottom: 1rem;
 }
-
 
 /* Subscribe section */
 .subscribe{
@@ -736,35 +723,7 @@ h6{
 .subscribe-form{
     display: flex;
     gap: 1rem;
- }
- /*
-.input-field-subscribe{
-    font-family: var(--font-family-1);
-    color: var(--secondary-color);
-    padding: 1.1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    width: 540px;
-
-    &:focus{
-        
-        border: 1px solid var(--primary-color);
-    }
-    &::placeholder{
-        font-size: 1rem;
-    }
 }
-
-.required::after{
-    content: " *";
-    color: var(--error-color);
-}
-
-.error{
-    font-size: 0.8em;
-    color: var(--error-color);
-    margin-top: 4px;
-} */
 
 /* Footer section */
 #footer{
@@ -1532,9 +1491,7 @@ h6{
 .pricelist-button:hover{
     width: 150px;
     margin: 0 auto;
-    color: red;
 }
-
 
 /* Testimonials section */
 /*Chat GPT helpt me with the background on the section. */
@@ -1917,7 +1874,6 @@ h6{
     min-height: 80px;
     resize: none;
 }
-
 
 /* Subscribe form */
 .subscribe-form-area{
