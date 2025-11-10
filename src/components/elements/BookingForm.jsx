@@ -122,7 +122,7 @@ const BookingForm = () => {
                 <textarea className={`bookingform-textarea ${errors.purpose ? 'input-error' : ''}`} type="text" name="purpose" value={formData.purpose} onChange={handleInputChange} placeholder="Describe your storage purpose so that we can match your request" required />
                 <div className="error-message">{errors.purpose && errors.purpose}</div>
             </div>
-            <button className="btn bookingform-button" type="submit" name="submit">Book Unit</button>
+            <button className="btn bookingform-button" type="submit" name="submit" aria-label="Book Unit">Book Unit</button>
         </div>        
     </form>
   )
