@@ -94,7 +94,7 @@ const Subscribe = () => {
                       <input className={`subscribeform-input ${errors.email ? 'input-error' : ''}`} type="email" name="email" value={formData.email} onChange={handleInputChange} required placeholder="Enter your email address *" />
                       <div className="error-message">{errors.email && errors.email}</div>
                     </div>
-                    <button className="btn subscribeform-button" type="submit" name="submit">Subscribe</button>
+                    <button className="btn subscribeform-button" type="submit" name="submit" aria-label="Subscribe to newsletter">Subscribe</button>
                   </form>
             </div>
         </div>

@@ -123,7 +123,7 @@ const ContactForm = () => {
                 <textarea className={`contact-form-textarea ${errors.comment ? 'error' : ''}`} name="comment" value={formData.comment} onChange={handleInputChange} required placeholder="Comments" />
                 <div className="error-message">{errors.comment && errors.comment}</div>
             </div>
-            <button className="btn submitted-button" type="submit" name="submit">Submit</button>
+            <button className="btn submitted-button" type="submit" name="submit" aria-label="Send contactinformation to us.">Send</button>
         </div>
     </form>
     </>
