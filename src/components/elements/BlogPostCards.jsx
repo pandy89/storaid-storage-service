@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from "react-router-dom";
 
 const BlogPostCards = ({item}) => {  
@@ -10,7 +9,6 @@ const BlogPostCards = ({item}) => {
       .toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })
       .replace(/ (\d{4})$/, ", $1"); 
   };
-
 
   return (
     <>
@@ -26,7 +24,7 @@ const BlogPostCards = ({item}) => {
         <div className="postcard-text">
           <span>{item.description}</span>
         </div>
-        <Link className="postcard-link" to="/">Read more<img src="icons/arrow-right-yellow.svg" alt="Arrow icon to read more about a Blogpost or Newspost" /></Link>
+        <Link className="postcard-link" to="/notfound">Read more<img src="icons/arrow-right-yellow.svg" alt="Arrow icon to read more about a Blogpost or Newspost" /></Link>
       </div>
       </div>
     </>

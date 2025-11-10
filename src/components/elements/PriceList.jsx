@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from '@elements/Button'
 
 const PriceList = ({ header, price }) => {
@@ -6,7 +5,7 @@ const PriceList = ({ header, price }) => {
     <>
         <div className="pricelist-card">
             <span className="pricelist-header"><h5>{header}</h5></span>
-            <img className="dollarsign" src="/icons/dollarsign.svg" alt="Dollar sign icon" />        
+            <img className="dollarsign" src="/icons/dollarsign.svg" alt="Dollarsign icon" />        
             <div className="pricelist-price">            
                 <span className="price">{price}</span>
                 <span className="month">/month</span>
@@ -25,7 +24,7 @@ const PriceList = ({ header, price }) => {
                 </ul>
             </div>
             <div className="pricelist-button">
-                <Button name="Rent Now" aria-label="Rent priceplan to 50$ per month" />
+                <Button name="Rent Now" to="/booking" aria-label="Rent priceplan."/>
             </div>
         </div>
     </>

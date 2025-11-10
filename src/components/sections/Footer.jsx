@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -8,8 +7,8 @@ const Footer = () => {
           <div className="footer-area">
             <div className="copy">&copy; StorAid, All rights reserved.</div>
             <div className="terms-policy">
-              <Link to="/" className="footer-link"><img src="/icons/arrow-right.svg" /><span>Terms and Conditions</span></Link>
-              <Link to="/" className="footer-link"><img src="/icons/arrow-right.svg" /><span>Privacy Policy</span></Link>
+              <Link to="/notfound" className="footer-link"><img src="/icons/arrow-right.svg" alt="right arrow to read Terms and Conditions" /><span>Terms and Conditions</span></Link>
+              <Link to="/notfound" className="footer-link"><img src="/icons/arrow-right.svg" alt="right arrow to read Privacy Policy" /><span>Privacy Policy</span></Link>
             </div>          
           </div>
         </div>

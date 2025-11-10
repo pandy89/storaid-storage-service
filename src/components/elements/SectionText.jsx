@@ -1,5 +1,3 @@
-import React from 'react'
-
 const SectionText = ({ introtext }) => {
   return (
     <span className="intro-text">{introtext}</span>

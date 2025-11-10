@@ -1,4 +1,3 @@
-import React from 'react'
 import KeyValuesItem from './KeyValuesItem'
 
 const KeyValues = () => {

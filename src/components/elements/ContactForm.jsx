@@ -99,27 +99,27 @@ const ContactForm = () => {
     <form className="form-area" onSubmit={handleSubmit} noValidate>
         <div className="contact-form">
             <div className="form-group" id="yourName">
-                <label className="contact-form-label required">Your Name</label>
+                <label className="contact-form-label required" id="name">Your Name</label>
                 <input className={`contact-form-input ${errors.name ? 'error' : ''}`} type="text" name="name" value={formData.name} onChange={handleInputChange} required placeholder="Your Name"/>
                 <div className="error-message">{errors.name && errors.name}</div>
             </div>
             <div className="form-group" id="email">
-                <label className="required">Email</label>
-                <input className={`contact-form-input ${errors.email ? 'error' : ''}`} type="email" name="email" value={formData.email} onChange={handleInputChange} required placeholder="Email" />
+                <label className="required" id="emailInput">Email</label>
+                <input className={`contact-form-input ${errors.email ? 'error' : ''}`}  type="email" name="email" value={formData.email} onChange={handleInputChange} required placeholder="Email" />
                 <div className="error-message">{errors.email && errors.email}</div>
             </div>
             <div className="form-group" id="telephone">
-                <label>Telephone</label>
+                <label id="phone">Telephone</label>
                 <input className={`contact-form-input ${errors.phone ? 'error' : ''}`} type="text" name="phone" value={formData.phone} onChange={handleInputChange} placeholder="Telephone" />
                 <div className="error-message">{errors.phone && errors.phone}</div>
             </div>
             <div className="form-group" id="subject">
-                <label className="required">Subject</label>
+                <label className="required" id="subjectInput">Subject</label>
                 <input className={`contact-form-input ${errors.subject ? 'error' : ''}`} type="text" name="subject" value={formData.subject} onChange={handleInputChange} required placeholder="Subject" />
                 <div className="error-message">{errors.subject && errors.subject}</div>
             </div> 
             <div className="form-group" id="comments">
-                <label className="required">Comments / Questions</label>
+                <label className="required" id="comment">Comments / Questions</label>
                 <textarea className={`contact-form-textarea ${errors.comment ? 'error' : ''}`} name="comment" value={formData.comment} onChange={handleInputChange} required placeholder="Comments" />
                 <div className="error-message">{errors.comment && errors.comment}</div>
             </div>

@@ -1,11 +1,9 @@
-import React from 'react'
 import HeroSubPage from '../components/sections/HeroSubPage'
 import OurServices from '../components/sections/OurServices'
 import Testimonials from '../components/sections/Testimonials'
 import BookStorage from '../components/sections/BookStorage'
 import Subscribe from '../components/sections/Subscribe'
 import FaqSection from '../components/sections/FaqSection'
-
 
 const ServicePage = () => {
   return (

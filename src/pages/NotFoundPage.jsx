@@ -1,4 +1,3 @@
-import React from 'react'
 import '../index.css'
 import Subscribe from '../components/sections/Subscribe'
 import Button from '@elements/Button'
