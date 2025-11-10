@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import BlogPostCards from '@elements/BlogPostcards'
+import BlogPostCards from '@elements/BlogPostCards'
 import SectionTextBlockFull from '../elements/SectionTextBlockFull'
 
 const BlogPost = () => {
