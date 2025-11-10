@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const BookingForm = () => {
     
@@ -104,22 +104,22 @@ const BookingForm = () => {
         <div className="bookingform-content">     
             <div className="form-group" id="bookingform-name">
                 <label className="required">Your Name</label>
-                <input className={`bookingform-input ${errors.name ? 'error' : ''}`} type="text" name="name" value={formData.name} onChange={handleInputChange} placeholder="Your Name" required/>
+                <input className={`bookingform-input ${errors.name ? 'input-error' : ''}`} type="text" name="name" value={formData.name} onChange={handleInputChange} placeholder="Your Name" required/>
                 <div className="error-message">{errors.name && errors.name}</div>
             </div>
-             <div className="form-group" id="bookingform-email">
+            <div className="form-group" id="bookingform-email">
                 <label className="required">Email</label>
-                <input className={`bookingform-input ${errors.email ? 'error' : ''}`} type="email" name="email" value={formData.email} onChange={handleInputChange} placeholder="Email" required />
+                <input className={`bookingform-input ${errors.email ? 'input-error' : ''}`} type="email" name="email" value={formData.email} onChange={handleInputChange} placeholder="Email" required />
                 <div className="error-message">{errors.email && errors.email}</div>
             </div>
             <div className="form-group" id="bookingform-unit">
                 <label className="required">Choose Unit</label>
-                <input className={`bookingform-input ${errors.selectedUnit ? 'error' : ''}`} type="text" name="selectedUnit" value={formData.selectedUnit} onChange={handleInputChange} placeholder="Choose Unit" required/>
+                <input className={`bookingform-input ${errors.selectedUnit ? 'input-error' : ''}`} type="text" name="selectedUnit" value={formData.selectedUnit} onChange={handleInputChange} placeholder="Choose Unit" required/>
                 <div className="error-message">{errors.selectedUnit && errors.selectedUnit}</div>
             </div>
             <div className="form-group" id="bookingform-storage">
                 <label className="required">Storage purpose</label>
-                <textarea className={`bookingform-textarea ${errors.purpose ? 'error' : ''}`} type="text" name="purpose" value={formData.purpose} onChange={handleInputChange} placeholder="Describe your storage purpose so that we can match your request" required />
+                <textarea className={`bookingform-textarea ${errors.purpose ? 'input-error' : ''}`} type="text" name="purpose" value={formData.purpose} onChange={handleInputChange} placeholder="Describe your storage purpose so that we can match your request" required />
                 <div className="error-message">{errors.purpose && errors.purpose}</div>
             </div>
             <button className="btn bookingform-button" type="submit" name="submit">Book Unit</button>
