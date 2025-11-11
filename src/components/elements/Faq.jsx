@@ -16,8 +16,8 @@ const Faq = () => {
 
   return (
     <div>
-      <div className="accordion__wrapper">
-        <div className="questions__accordion">
+      <div className="accordion-wrapper">
+        <div className="questions-accordion">
             {
               faqs.map((faqs) => (
                 <AccordionItem key={faqs.id} item={faqs}/>
