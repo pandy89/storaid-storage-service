@@ -984,6 +984,7 @@ h6{
     background-color: var(--tertiary-color-1);
     border-radius: 5px;
     padding: .5rem 1rem .5rem 1rem; 
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .question.active{
@@ -1038,6 +1039,10 @@ h6{
     transition: max-height 0.5s ease, padding 0.3s ease; 
     max-height: 0;
     padding: 0 3rem;
+}
+
+.answer-inner{
+    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .answer.active {
