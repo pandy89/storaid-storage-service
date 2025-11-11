@@ -1211,7 +1211,6 @@ h6{
 
 .postcard-content{
     border-radius: 8px;
-    cursor: pointer;
     transition: all 0.3s ease;
     display: grid;
     gap: 1rem;
@@ -1269,6 +1268,25 @@ h6{
     font-weight: var(--fontweight-regular);
 }
 
+.postcard-button{
+    cursor: pointer;
+    display: flex;
+    gap: .5rem;
+    background-color: transparent;
+    border: none;
+    color: var(--accent-color-1);
+    align-content: center;
+    text-decoration: none;
+    font-family: var(--font-family-1);
+    font-size: var(--bodytext-1-size);
+    padding-left: 0;
+    padding-top: 2rem;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
 .postcard-link{
     grid-area: button;
     padding-left: 25px;
@@ -1293,9 +1311,8 @@ h6{
     width: 430px;
     height: auto;
     padding-top: 25px;
-    padding-bottom: 25px;
     border-radius: 8px;
-    cursor: pointer;
+
     transition: all 0.3s ease;
 
     &:hover{
@@ -1305,16 +1322,15 @@ h6{
 
 .postcard-content{
     border-radius: 8px;
-    cursor: pointer;
+
     transition: all 0.3s ease;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto 1fr auto;
+    grid-template-rows: auto auto auto 1fr;
     grid-template-areas:    "image"
                             "date"
                             "title"
                             "text"  
-                            "button"  
     ;
 }
 
@@ -1358,24 +1374,6 @@ h6{
     font-size: var(--bodytext-1-size);
     font-family: var(--font-family-1);
     font-weight: var(--fontweight-regular);
-}
-
-.postcard-link{
-    grid-area: button;
-    padding-left: 25px;
-    padding-right: 25px;
-    display: flex;
-    color: var(--accent-color-1);
-    align-content: center;
-    text-decoration: none;
-    
-    &:hover{
-        text-decoration: underline;
-    }
-
-    img{
-        padding-left: 10px;
-    }
 }
 
 /* Pricelist */
