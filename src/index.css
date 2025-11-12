@@ -159,7 +159,7 @@ h6{
 .wrapper {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    height: 100dvh;
+    height: 100%;
 }
 
 .container{
@@ -207,6 +207,14 @@ h6{
     align-items: center;
     justify-content: space-between;
 }
+
+#header{
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 1px 10px var(--accent-color-2);
+  z-index: 100;
+}
+
 
 /* SECTIONS STYLES */
 /* Top Bar section */
