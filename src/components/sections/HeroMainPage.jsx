@@ -1,5 +1,5 @@
 import Button from '@elements/Button'
-import firstSilhouette from '/silhouette-1.svg'
+import firstSilhouette from '/silhouette-1.png'
 
 export const HeroMainPage = ({title, subtitle, text}) => {
   return (
