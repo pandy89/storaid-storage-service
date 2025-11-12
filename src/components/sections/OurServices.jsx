@@ -10,7 +10,7 @@ const OurServices = () => {
             <div className="our-service-info-box">
                 <Tiles title="Diverse Unit Sizes" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." className="tile-1" variant="secondary" titleVariant="secondary" textVariant="secondary"/>
                 <Tiles title="Vehicle Storage" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." className="tile-2" variant="secondary" titleVariant="secondary" textVariant="secondary"/>
-                <div className="placeholder-box"><img src={ourServiceImage} /></div>
+                <div className="placeholder-box"><img src={ourServiceImage} alt="woman and man working in storage with boxes." /></div>
                 <Tiles title="Moving Assistance" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." className="tile-3" variant="secondary" titleVariant="secondary" textVariant="secondary"/>
                 <Tiles title="Top-Notch Security" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." className="tile-4" variant="secondary" titleVariant="secondary" textVariant="secondary"/>
             </div>

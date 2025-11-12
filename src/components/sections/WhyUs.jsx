@@ -16,7 +16,7 @@ const WhyUs = () => {
                         <IconInfoBlock title="Clean and Well-Maintained Facilities" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." variant="primary" icon="clean" />
                         <IconInfoBlock title="24/7 and Convenient Access" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." variant="primary" icon="clock" />
                     </div>
-                    <div className="why-us-placeholder"><img src={whyUsImage} /></div>
+                    <div className="why-us-placeholder"><img src={whyUsImage} alt="green storagedoor with lock" /></div>
                 </div>
             </div>
         </div>
