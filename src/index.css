@@ -310,7 +310,7 @@ h6{
 }
 
 .mainhero-content{
-    padding-top: 180px;
+    padding-top: 178px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto 1fr;
@@ -349,6 +349,10 @@ h6{
 
 .mainhero-image{
     grid-area: image;
+
+    .img{
+        display: block;
+    }
 }
 
 /* Sub hero section */
@@ -472,8 +476,6 @@ h6{
     grid-area: placeholder;
     width: 520px;
     height: 340px;
-    background-color: #c4c4c4;
-    border: 3px solid var(--tertiary-color-1);
 }
 
 .our-service-info-box{
@@ -569,8 +571,6 @@ h6{
 .why-us-placeholder{
     height: 424px;
     width: 659px;
-    background-color: #c4c4c4;
-    border: 3px solid var(--tertiary-color-1);
 }
 
 /* Pricing Plan section */
@@ -607,8 +607,7 @@ h6{
 }
 
 .booking-unit-image{
-    background-color: var(--placeholder-bg-color);
-    border: 5px solid var(--tertiary-color-1);
+
     height: 545px;
     width: 673px;
 }
@@ -809,7 +808,6 @@ h6{
     grid-area: gitplaceholder;
     width: 664px;
     height: 367px;
-    background-color: var(--placeholder-bg-color);
 }
 
 /* Find Us section */
@@ -825,6 +823,10 @@ h6{
 .find-us-image{
     align-content: end;
     margin: 0;
+
+    img{
+        display: block;
+    }
 }
 
 .find-us-on-box{
@@ -1165,8 +1167,7 @@ h6{
 .keyvalues-area{
     width: 673px;
     height: 441px;
-    background-color: #c4c4c4;
-    border: 3px solid var(--tertiary-color-1);
+
 }
 
 .keyvalues-box{

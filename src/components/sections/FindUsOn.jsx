@@ -4,7 +4,7 @@ import facebook from '/icons/facebook.svg'
 import x from '/icons/x.svg'
 import instagram from '/icons/instagram.svg'
 import youtube from '/icons/youtube.svg'
-import secondSilhouette from '/silhouette-2.svg'
+import secondSilhouette from '/silhouette-2.png'
 
 const FindUsOn = () => {
   return (
