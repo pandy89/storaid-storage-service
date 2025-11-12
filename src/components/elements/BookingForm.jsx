@@ -1,11 +1,23 @@
 import { useState } from 'react'
 
+// I use ChatGPT to help me with the functions of the custom-select and validation. 
+
 const BookingForm = () => {
-    
 
     const [formData, setFormData] = useState({name: '', email: '', selectedUnit:'', purpose: '',})
-    const [errors, setErrors] = useState({});
+    const [errors, setErrors] = useState({})
     const [submitted, setSubmitted] = useState(false)
+
+    const option = [{ label: "Please choose unit", value: "", disabled:true},{ label: "Small Unit", value: "chooseunit2",},{label: "Medium Unit", value: "chooseunit3",},{label: "Large Unit", value: "chooseunit4",},{label: "Executive Unit", value: "chooseunit5",}]
+    const [showOptions, setShowOptions] = useState(false)
+    const [selectedLabel, setSelectedLabel] = useState(option[0].label)
+
+    const handleOptionClick = (value, label) => {
+        setSelectedLabel(label)
+        setFormData({ ...formData, selectedUnit: value })
+        setShowOptions(false)
+        validateField("selectedUnit", value)
+    }
 
     const validateField = (name, value) => {
         let error =''
@@ -16,13 +28,19 @@ const BookingForm = () => {
             error = "You must enter a email address."
 
         } else if (name === 'selectedUnit' && !/^[A-Öa-ö0-9\s.-\d]{2,}$/.test(value)) {
-            error = "The field must have 2 charaters."
+            error = "You must choose a unit"
 
         } else if (name === 'purpose' && !/^[A-Öa-ö0-9\s.-\d]{2,}$/.test(value)) {
             error = "The field must have 2 charaters."
         }
 
         setErrors(prevErrors => ({...prevErrors, [name]: error}))
+    }
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target
+        setFormData({...formData, [name]: value})
+        validateField(name, value)
     }
 
     const validateForm = () => {
@@ -35,8 +53,8 @@ const BookingForm = () => {
             newErrors.email = "You must enter a valid email address."
         }
 
-        if (!/^[A-Öa-ö0-9\s.-\d]{2,}$/.test(formData.selectedUnit)){
-            newErrors.selectedUnit = "You must enter a unit."
+        if (formData.selectedUnit === ""){
+            newErrors.selectedUnit = "You must choose a unit."
         }
 
         if (!/^[A-Öa-ö0-9\s.-\d]{2,}$/.test(formData.purpose)){
@@ -45,13 +63,6 @@ const BookingForm = () => {
 
         setErrors(newErrors)
         return Object.keys(newErrors).length === 0;
-    }
-
-    const handleInputChange = (e) => {
-        const { name, value } = e.target
-        setFormData({...formData, [name]: value})
-
-        validateField(name, value)
     }
 
     const handleOK = () => {
@@ -73,7 +84,8 @@ const BookingForm = () => {
 
         if(res.ok) {
             setSubmitted(true)
-            setFormData({ name: '', email:'', unit:'', purpose:'', })
+            setFormData({ name: '', email:'', selectedUnit:'', purpose:'', })
+            setSelectedLabel(option[0].label)
         } else{
             const data = await res.json()
             console.log(data)
@@ -113,9 +125,20 @@ const BookingForm = () => {
                 <div className="error-message">{errors.email && errors.email}</div>
             </div>
             <div className="form-group" id="bookingform-unit">
-                <label className="required">Choose Unit</label>
-                <input className={`bookingform-input ${errors.selectedUnit ? 'input-error' : ''}`} type="text" name="selectedUnit" value={formData.selectedUnit} onChange={handleInputChange} placeholder="Choose Unit" required/>
-                <div className="error-message">{errors.selectedUnit && errors.selectedUnit}</div>
+            <label className="required">Choose Unit</label>
+                <div className={`custom-select ${errors.selectedUnit ? 'input-error' : ''}`}>
+                    <div className={`select-box ${showOptions ? "active" : ""}`} onClick={() => setShowOptions(!showOptions)}>
+                    <span className="selected">{selectedLabel}</span>
+                    <div className="arrow"></div>
+                    </div>
+                        {showOptions && (
+                        <div className="options">{option.map((opt) => (
+                        <div key={opt.value} className={`option ${opt.disabled ? "disabled" : ""}`} onClick={() =>!opt.disabled && handleOptionClick(opt.value, opt.label)}>{opt.label}</div>
+                        ))}
+                        </div>
+                        )}
+                </div>
+                <div className="error-message">{errors.selectedUnit}</div>
             </div>
             <div className="form-group" id="bookingform-storage">
                 <label className="required">Storage purpose</label>
